@@ -1,0 +1,547 @@
+{
+  "season": 1,
+  "quotes_by_episodes": {
+    "1": [
+      {
+        "quote": "(Un sénateur : - J'vais vous dire : le jour où j'ai accepté d'être sénateur, j'aurais mieux fait de m'péter une jambe.) Ça peut encore s'arranger.",
+        "actor": "François Levantal",
+        "author": "Alexandre Astier",
+        "title": "Miles Ignotus"
+      },
+      {
+        "quote": "Ça s'enferme les registres ! (Glaucia : Ah bon ? ) Ouais ! Et les trous du cul qui font pas leur boulot, ça s'enferme aussi !",
+        "actor": "François Levantal",
+        "author": "Alexandre Astier",
+        "title": "Miles Ignotus"
+      },
+      {
+        "quote": "(Glaucia : - Ave Publius Servius Capito, t'avais demandé un rendez-vous ?) Non. J'ai pas envoyé de fleurs non plus.",
+        "actor": "François Levantal",
+        "author": "Alexandre Astier",
+        "title": "Miles Ignotus"
+      },
+      {
+        "quote": "Allons, je suis humilié. Moi qui croyais que le Romain respectait ses ennemis, et ben non ! En voilà encore une belle désillusion. S'ils croient que c'est avec une mentalité pareille qu'ils vont fédérer le pays, on leur rend leur fric, on remonte sur les chevaux, et on leur met sur la gueule ! D'un autre côté, restituer une pareille quantité de blé, ça frise le mauvais gout, je suis désolé, ça ne se fait pas ! Ne serait-ce par respect pour les plus nécessiteux. Bon allons, après, il y a le serment : si je garde le blé, j'attaque pas ! Et ben voilà : je garde le blé, j'attaque pas; un serment c'est sacré. Oui mais ce qui m'ennuie, c'est que c'est pile le jour que j'avais choisi pour vous passer le pouvoir, c'est quelque chose, les dates, hein ! Je garde le blé, j'attaque pas, je suis sous serment. Mais vous, maintenant que vous êtes roi de Carmélide, si... s'il vous prend le goût d'aller leur dérouiller le cul, je ne vois vraiment pas comment je pourrais vous en empêcher !",
+        "actor": "Philippe Nahon",
+        "author": "Alexandre Astier",
+        "title": "Miles Ignotus"
+      },
+      {
+        "quote": "Une nuit, une nuit à attendre... Une longue nuit avant de savoir si le souverain ennemi acceptera un traité de paix, si fragile, si friable qu'on aurait même de la peine à le prendre au sérieux. Des solutions précaires, du rafistolage, voilà tout ce que j'ai su inventer. La Bretagne résistait quand je suis arrivé, elle résistera encore quand je partirai. Je ne saurais dire pourquoi, je conserve encore, rescapée de mon découragement, une curiosité : existe t-il quelqu'un parmi nous déjà - ou encore à naitre - qui se destine à restaurer l'ordre sur l'île de Bretagne? Et s'il existe, que peut-il bien posséder que je ne possède moi-même ? D'où vient-il? Est-il romain? Quelle arme tient-il à sa ceinture ? Celui qui vaincra là où j'ai échoué, je voudrais voir son visage une fois, car je lui conserve encore, rescapé de mon découragement, ma curiosité.",
+        "actor": "Tcheky Karyo",
+        "author": "Alexandre Astier",
+        "title": "Miles Ignotus"
+      },
+      {
+        "quote": "Regarde, vois ! Cette glorieuse cité cosmopolite, regarde.  Carrefour des civilisations, hôtesse orgueilleuse de peuplades fascinées, regarde. On nous reproche assez qu'il n'existe plus de vrais Romains, hein ? Hein ? Allez trouve un Breton, trouve. ",
+        "actor": "Patrick Chesnais",
+        "author": "Alexandre Astier",
+        "title": "Miles Ingnotus"
+      },
+      {
+        "quote": "Ah mais ouais... Ah mais bien sûr, les gars... évidemment... nan mais allez-y, c'est mon truc les bateaux moi, je connais à mort... Allez-y hein... J'balance un caillou dans la flotte, y'en à trente qui r'montent.",
+        "actor": "Manu Payet",
+        "author": "Alexandre Astier",
+        "title": "Miles Ignotus"
+      },
+      {
+        "quote": "Eh les gars, vous savez ce qu'on bouffe ce soir ? DU ROMAIN !",
+        "actor": "Lionnel Astier",
+        "author": "Alexandre Astier",
+        "title": "Miles Ignotus"
+      }
+    ],
+    "2": [
+      {
+        "quote": "(S'adressant à Merlin) Vous préférez monter dans la barque, maintenant, de plein gré, ou dans vingt secondes avec un coup de pompe dans l'oignon ?",
+        "actor": "François Levantal",
+        "author": "Alexandre Astier",
+        "title": "Centurio"
+      },
+      {
+        "quote": "Alors c'est ça, la stratégie moderne? Réunir cinq trous-de-balle en cercle et s'balancer des fions?",
+        "actor": "Philippe Nahon",
+        "author": "Alexandre Astier",
+        "title": "Centurio"
+      },
+      {
+        "quote": "Et ben vous inviterez vos copains à la maison, on vous organisera une petite après-midi à la plage et vous pourrez faire des pâtés !.",
+        "actor": "Philippe Nahon",
+        "author": "Alexandre Astier",
+        "title": "Centurio"
+      },
+      {
+        "quote": "Allez ! Et si on part assez tôt, on pourra peut-être s'arrêter deux minutes si on tombe sur des champis !.",
+        "actor": "Philippe Nahon",
+        "author": "Alexandre Astier",
+        "title": "Centurio"
+      }
+    ],
+    "3": [
+      {
+        "quote": "Quand je dis que Rome est à la Cité ce que la chèvre est au fromage de chèvre, je veux dire que c'est le petit plus qui est corollaire au noyau mais qui est pas directement dans le cœur du fruit !",
+        "actor": "Jacques Chambon",
+        "author": "Alexandre Astier",
+        "title": "Præceptores"
+      },
+      {
+        "quote": "Quand vous êtes parti, je me suis dit : Je vais me promener ? Je vais me pas promener ? Finalement j'ai décidé de me beurrer la gueule.",
+        "actor": "Jacques Chambon",
+        "author": "Alexandre Astier",
+        "title": "Præceptores"
+      }
+    ],
+    "4": [
+      {
+        "quote": "A l'époque, quand je levais le doigt, y avait 15 000 soldats qui gueulaient Imperator ! Maintenant, quand je lève le doigt, c'est pour aller pisser... ",
+        "actor": "Pierre Mondy",
+        "author": "Alexandre Astier",
+        "title": "Arturi Inquisitio"
+      },
+      {
+        "quote": "Imperator ! Aaaaah ! Imperator ! Ah ça fait du bien crénom ! Ca me change de tous ces glands là... Votre tranquillité par-ci, votre tranquillité par-là... Ça, dis donc... Pour être tranquille, 24h sur 24 au plumard... À pioncer, à bouffer de la compote... Ça, c'est sûr que j'enchaîne pas les crises de nerf... Mais assieds-toi là ! On dirait que tu vas chanter une chanson ! Allez ! ",
+        "actor": "Pierre Mondy",
+        "author": "Alexandre Astier",
+        "title": "Arturi Inquisitio"
+      },
+      {
+        "quote": "Ca y est ! C'est leur dernière saison aux débiles. Tu peux préparer les outils, on passe directement de la discussion à la désintégration.",
+        "actor": "Patrick Chesnais",
+        "author": "Alexandre Astier",
+        "title": "Arturi inquisitio"
+      },
+      {
+        "quote": "(Capito : Les quatre en une seule fois, vous avez pas peur que ça soit un peu voyant non ?) Rien à foutre ! Tu peux même les crucifier sur une estrade au milieu du forum si ça te chante, c'est moi qui paye l'orchestre. ",
+        "actor": "Patrick Chesnais",
+        "author": "Alexandre Astier",
+        "title": "Arturi inquisitio"
+      },
+      {
+        "quote": "Si Kadoc il surveille bien, il aura des p'tits cubes de fromage.",
+        "actor": "Brice Fournier",
+        "author": "Alexandre Astier",
+        "title": "Arturi Inquisitio"
+      }
+    ],
+    "5": [
+      {
+        "quote": "Tu salues plus les généraux ? C'est pourtant largement au-dessus de ton grade merdique.",
+        "actor": "François Levantal",
+        "author": "Alexandre Astier",
+        "title": "Dux bellorum"
+      },
+      {
+        "quote": "Alors, sans vouloir te commander, aurais-tu l'obligeance de bien vouloir te magner le cul.",
+        "actor": "François Levantal",
+        "author": "Alexandre Astier",
+        "title": "Dux bellorum"
+      },
+      {
+        "quote": "On devient pas chef parce qu'on le mérite andouille ! On devient chef par un concours de circonstances, on le mérite après ! Moi, il m'a p'têt fallu dix ans pour mériter mon grade, si pas vingt. Tous les jours, j'ai travaillé pour pas nager dans mon uniforme. Y a pas trente-six solutions. Arturus ? Hein ? Fais semblant ! Fais semblant d'être Dux. Fais semblant de mériter ton grade. Fais semblant d'être un grand chef de guerre. Si tu fais bien semblant, un jour tu verras, t'auras plus besoin !",
+        "actor": "Pierre Mondy",
+        "author": "Alexandre Astier",
+        "title": "Dux bellorum"
+      },
+      {
+        "quote": "Je vais poser une question simple : et vous, vous le méritez ? Ah non mais attendez, est-ce que vous le méritez, est-ce que vous méritez votre place ?! Lurco ! Tu devais aller en Germanie... c'est ta tante qui t'a fait entrer au sénat ! Pisansius ! Pas une seule année dans la légion, pas une seule ! J'm...e demande même parfois si t'as déjà tenu une arme dans ta vie... Destisius ! C'est ton père qui a donné la moitié de ses terres pour que quelqu'un puisse prendre ta place en Afrique... C'est vrai ou c'est pas vrai ? Vous êtes tous des planqués, tous, tous, tous, tous , tous. [...] Vous allez me signer cette tablette, parce que le p'tit mérite largement son grade autant que vous vous méritez votre place au Sénat... Largement.",
+        "actor": "Patrick Chesnais",
+        "author": "Alexandre Astier",
+        "title": "Dux Bellorum"
+      },
+      {
+        "quote": "Oh allez, mon pote ! Fais un effort ! Dans dix minutes, t'es pendu et on n'en parle plus. ",
+        "actor": "Pascal Demolon",
+        "author": "Alexandre Astier",
+        "title": "Dux Bellorum"
+      },
+      {
+        "quote": "Séchez vos larmes mon épousée, je m'occupe d'aller chercher ces petites salopes par la peau du fion !",
+        "actor": "Nicolas Gabion",
+        "author": "Alexandre Astier",
+        "title": "Dux bellorum"
+      },
+      {
+        "quote": "(En coin, à sa mère) Pardon, mère.",
+        "actor": "Nicolas Gabion",
+        "author": "Alexandre Astier",
+        "title": "Dux bellorum"
+      },
+      {
+        "quote": "J'espère que tu fabules, bourgeois de bon aloi ! As-tu la fabulette bien preste ?",
+        "actor": "Pascal Vincent",
+        "author": "Alexandre Astier",
+        "title": "Dux bellorum"
+      },
+      {
+        "quote": "Vous préférez \"Bohort le jeune\" ou \"Bohort l'ami du raisin\" ? Parce que j'avais réfléchi à la seconde possibilité, ça fait plus fruité !",
+        "actor": "Pascal Vincent",
+        "author": "Alexandre Astier",
+        "title": "Dux bellorum"
+      },
+      {
+        "quote": "Méfie toi, riche homme : on ne berne pas deux fois Urgan l'homme goujon, même une fois !",
+        "actor": "Pascal Vincent",
+        "author": "Alexandre Astier",
+        "title": "Dux bellorum"
+      },
+      {
+        "quote": "Patience est mère de famille !",
+        "actor": "Pascal Vincent",
+        "author": "Alexandre Astier",
+        "title": "Dux bellorum"
+      },
+      {
+        "quote": "Tu ne t'en tireras à si bon compte que s'ils font les bons amis !",
+        "actor": "Pascal Vincent",
+        "author": "Alexandre Astier",
+        "title": "Dux bellorum"
+      }
+    ],
+    "6": [
+      {
+        "quote": "(au Maître d'Armes) J'pensais à une chose, en toute amitié, un gros pain dans votre tête, ça serait de nature à vous convenir ?",
+        "actor": "Emmanuel Meirieu",
+        "author": "Alexandre Astier",
+        "title": "Nuptiae"
+      },
+      {
+        "quote": "En fait, je m'en suis pris deux, mais j'ai cherché la merde.",
+        "actor": "Emmanuel Meirieu",
+        "author": "Alexandre Astier",
+        "title": "Nuptiae"
+      },
+      {
+        "quote": "Mais moi non plus, je suis pas le chef suprême de la première puissance mondiale ! Le chef suprême de la première puissance mondiale, c'est celui qui tire les ficelles dans l'arrière-boutique, moi je suis juste un spectacle de marionnettes. Voilà. La petite journée désarticulée de César le pantin. Et ça se passe dans le ghetto !",
+        "actor": "Pierre Mondy",
+        "author": "Alexandre Astier",
+        "title": "Nuptiæ"
+      },
+      {
+        "quote": "[S'adressant à Arthur.] Des chefs de guerre, il y en a de toutes sortes. Des bons, des mauvais, des pleines cagettes, il y en a. Mais une fois de temps en temps, il en sort un. Exceptionnel. Un héros. Une légende. Des chefs comme ça, il y en a presque jamais. Mais tu sais ce qu'ils ont tous en commun ? Tu sais ce que c'est, leur pouvoir secret ? Ils ne se battent que pour la dignité des faibles.",
+        "actor": "Pierre Mondy",
+        "author": "Alexandre Astier",
+        "title": "Nuptiæ"
+      },
+      {
+        "quote": "[César offre à Arthur la bague de contrôle des lames] C'est pour t'apprendre à faire confiance à la magie, parce qu'il n'y a que ça qui marche sur Terre, Arturus, la magie. Le reste, ça ne vaut pas un rond.",
+        "actor": "Pierre Mondy",
+        "author": "Alexandre Astier",
+        "title": "Nuptiæ"
+      },
+      {
+        "quote": "Mille excuses... Normalement, je devrais pas dire ça à un prêtre chrétien, mais, comme vous m'avez tout l'air d'être un gros baltringue euh, je me permets ?\r\n(Père Blaise : Mmmh ?...) Vous avez oublié les alliances.",
+        "actor": "Anne Benoît",
+        "author": "Alexandre Astier",
+        "title": "Nuptiæ"
+      },
+      {
+        "quote": "Je préviens monsieur et madame que s'ils ont dans l'idée de remplacer leur hypothétique progéniture par des groupes d'amis dans le style de celui-ci, en ce qui me concerne, y a d'la démission dans l'air.",
+        "actor": "Anne Benoît",
+        "author": "Alexandre Astier",
+        "title": "Nuptiæ"
+      },
+      {
+        "quote": "C'est tout ? Treize ans qu'ils me laissent pourrir sur pied, dans ce pays de merde ! Treize ans ! Maintenant ils m'envoient un message, il faut que je rentre chez moi !\r\n[...] Mais qu'est ce qui leur fait croire que ça existe encore chez moi ?!! Est-ce qu'un type qui a foutu le camp treize ans peut encore avoir un chez soi ? C'est complètement absurde...",
+        "actor": "Tcheky Karyo",
+        "author": "Alexandre Astier",
+        "title": "Nuptiæ"
+      },
+      {
+        "quote": "Ah ouais non mais attends, c'est du joli boulot là, les p'tits sacripants... Oui, sacripants, oui. C'est un terme un peu craignos. D'ailleurs, ben voilà, même craignos, c'est craignos. Mais c'est parce que je suis choqué ! Qu'est-ce que j'entends ? Tu demandes en mariage une personne âgée ? Et la p'tite Julia alors, dans tout ça ? Ah il faut que j'm'en occupe tout seul, c'est ça ? Ah très bien... Merci les p'tits fripons... Tiens, ça aussi, c'est un peu craignos, tu vois ? Mais c'est parce que là ouuuh ! Et bravo général, beau boulot ! Ah les pots cassés, c'est Verinus qui répare les pots cassés tout simplement... Ok d'accord, très bien...",
+        "actor": "Manu Payet",
+        "author": "Alexandre Astier",
+        "title": "Nuptiæ"
+      },
+      {
+        "quote": "(Aux rois de Logres)Moi je vous le dis, si on monte pas dans le char quand il nous passe sous le nez, on finira la route à pied.",
+        "actor": "Lionnel Astier",
+        "author": "Alexandre Astier",
+        "title": "Nuptiae"
+      },
+      {
+        "quote": "Euh, juste une chose... Manquez encore une seule fois de respect au futur roi de Bretagne, et je vous coupe les boules ! Ca vous fera une jolie petite sacoche pour ranger vos dés à coudre.",
+        "actor": "Christian Bujeau",
+        "author": "Alexandre Astier",
+        "title": "Nuptiæ"
+      },
+      {
+        "quote": "(Manilius : Et ben je suis euh...) Je suis, je suis, je suis une petite tapette, qui parle à tort et à travers, sans que personne ne lui demande son avis, alors elle ferme son bec la poupoule... Et elle laisse parler les grands garçons.",
+        "actor": "Christian Bujeau",
+        "author": "Alexandre Astier",
+        "title": "Nuptiæ"
+      }
+    ],
+    "7": [
+      {
+        "quote": "Ouais c'est bien qu'on reste un peu dehors, comme ça j'pourrais vous mettre une grosse tarte en plein air.",
+        "actor": "Emmanuel Meirieu",
+        "author": "Alexandre Astier",
+        "title": "Arturus Rex"
+      },
+      {
+        "quote": "(Aux rois assemblés) FUMIEEEERS !!!!",
+        "actor": "Philippe Nahon",
+        "author": "Alexandre Astier",
+        "title": "Arturus Rex"
+      },
+      {
+        "quote": "Alors écoutez-moi bien les sent-la-pisse, vous êtes probablement en train d'insulter un roi désigné par les dieux, et s'il y a une chose dont il ne faut pas se foutre, c'est les dieux !",
+        "actor": "Philippe Nahon",
+        "author": "Alexandre Astier",
+        "title": "Arturus Rex"
+      },
+      {
+        "quote": "( À Arthur et Guenièvre) Hé ! A l'origine j'étais sorti pour lâcher une caisse, mais quand on vous voit comme ça dans le clair de lune, on a pas envie de bousiller le tableau. J'vais aller loufer à l'intérieur pour emboucaner les autres fumiers. Profitez ! Le plus beau dans les histoires d'amour, c'est le début...",
+        "actor": "Philippe Nahon",
+        "author": "Alexandre Astier",
+        "title": "Arturus rex"
+      },
+      {
+        "quote": "L'adjectif qui me correspond le mieux, c'est : le plancton.",
+        "actor": "Tony Saba",
+        "author": "Alexandre Astier",
+        "title": "Arturus Rex"
+      },
+      {
+        "quote": "Regardez moi la jolie petite paire de fillettes, si c'est pas fragile!",
+        "actor": "Christian Bujeau",
+        "author": "Alexandre Astier",
+        "title": "Arturus Rex"
+      },
+      {
+        "quote": "Ah mais foutez moi la paix ! J'ai traversé l'île en long, en large et en travers ! Pareil en Aquitaine et en Armorique ! Vous croyez que j'me souviens de tous les trous du cul à qui j'ai balancé mon laïus ?",
+        "actor": "Jacques Chambon",
+        "author": "Alexandre Astier",
+        "title": "Arturus rex"
+      },
+      {
+        "quote": "Vous pouvez pas vous les compter vous-même vos points ? Faut forcément qu'on vous tienne le zizi ? ",
+        "actor": "Gilles Graveleau",
+        "author": "Alexandre Astier",
+        "title": "Arturus Rex"
+      },
+      {
+        "quote": "C'que j'vous explique depuis trois quart d'heure. J'en ai rien a foutre de devenir chevalier. Ce qui m'intéresse, si y a un nouveau Roi qui chapaute tout l'système, c'est d'être en affaires avec.\r\n(Maître d'armes : Nan mais vous avez quand même écouté notre topo sur la fédération ?)\r\nJ'vous ai pas coupés en plein milieu parce que bon... Mais effectivement ça m'concerne pas votre bordel. Qu'vous vous réunissiez pour faire des fédérations, même jouer aux cartes... c'qui compte c'est qu'ce soit moi qui vous fournisse en putes.",
+        "actor": "Loïc Varraut",
+        "author": "Alexandre Astier",
+        "title": "Arturus Rex"
+      }
+    ],
+    "8": [
+      {
+        "quote": "Désolé mais vous l'avez chié votre mariage. Ce s'rait rien si c'était pas juste la deuxième fois.",
+        "actor": "Emmanuel Meirieu",
+        "author": "Alexandre Astier",
+        "title": "Lacrimosa"
+      },
+      {
+        "quote": "Sans rire, vous foutez quoi là-dedans là ? Pourtant, vous croulez pas sous les visites diplomatiques, il me semble ? Une fois tous les dix ans, vous pouvez donner un coup de balai, non ?",
+        "actor": "François Levantal",
+        "author": "Alexandre Astier",
+        "title": "Lacrimosa"
+      },
+      {
+        "quote": "J'ai à peu près compris le principe du double jeu, mais je ne saurais dire pourquoi, j'ai l'impression que tu nous l'as mis dans l'os ? Et je pense que si tu refous les pieds à Rome, ne le prends pas mal hein... je te ferai éliminer. ",
+        "actor": "François Levantal",
+        "author": "Alexandre Astier",
+        "title": "Lacrimosa"
+      },
+      {
+        "quote": "Allez, vous devriez mettre les bouts, les demi-sels ! C'est gentil d'être passés ! On va vous faire un p'tit sac avec des restes pour manger chez vous.",
+        "actor": "Claire Nadeau",
+        "author": "Alexandre Astier",
+        "title": "Lacrimosa"
+      },
+      {
+        "quote": "Je vous ai passé le pouvoir, je vais pas vous le reprendre. Mais faites attention de pas devenir une tarlouse.",
+        "actor": "Philippe Nahon",
+        "author": "Alexandre Astier",
+        "title": "Lacrimosa"
+      },
+      {
+        "quote": "D'autant que les orchestres en Bretagne, franchement, autant se frotter les noyaux avec des orties!",
+        "actor": "Pascal Demolon",
+        "author": "Alexandre Astier",
+        "title": "Lacrimosa "
+      },
+      {
+        "quote": "Oui ... et tu veux les jeter où, tes épluchures ? ... en Germanie ?\r\nBalance-moi tes saloperies, et radine sur le champs.\r\nPARCE-QUE QUAND je dis TOUT l'MONDE ... ET BEN C'EST TOUT L'MONDE !\r\n...\r\nTu es gentil.",
+        "actor": "Pascal Demolon",
+        "author": "Alexandre Astier",
+        "title": "Lacrimosa "
+      },
+      {
+        "quote": "Y a un truc, quand même, qu'il faut que vous compreniez bien les gars... Si vous voulez, moi, à la base... J'suis une balance... C'est le postulat de départ, on a devant soi, une balance. Donc une personne, si vous voulez, qu'on n'a pas besoin de cogner puisque elle vient elle-même délivrer l'information, sans que vous ayez même à la demander. Parce que non, pourquoi j'vous dis ça ? Puisque... on est quand même à une heure et demie de marrons dans la gueule là... Et si j'vous dis que je ne sais rien, c'est que je pense qu'effectivement...\r\n(Procyon le frappe)\r\nPfff... je n'sais rien...",
+        "actor": "Manu Payet",
+        "author": "Alexandre Astier",
+        "title": "Lacrimosa"
+      },
+      {
+        "quote": "Ben dis donc, j'sais pas c'que c'est, \"la pire\", mes p'tits cousins, mais j'peux vous garantir que, vu d'ici, ça fout les boules, hein... Ouuuh... Non, parce que, quand il a dit euh... plusieurs options, j'ai fait toute une série de p'tits pets comme ça, pou, pou, pou...",
+        "actor": "Manu Payet",
+        "author": "Alexandre Astier",
+        "title": "Lacrimosa"
+      },
+      {
+        "quote": "Y sont où les quignons à Kadoc ? Y sont dans la poche? Y sont bien cachés ?",
+        "actor": "Brice Fournier",
+        "author": "Alexandre Astier",
+        "title": "Lacrimosa"
+      }
+    ],
+    "9": [
+      {
+        "quote": "(à Arthur qui vient de lui raconter longuement un rêve)\r\nC'est vraiment chouette comme rêve... Moi l'autre nuit j'ai rêvé que Karadoc avait des pinces... \r\nArthur : (confus) C'est-à-dire? \r\nComme un crabe... \r\nArthur : Ah? Et qu'est-ce qu'il faisait avec ses pinces?\r\nIl me pinçait le ménisque.\r\nArthur : (interloqué) Le ménisque?\r\nComparés aux vôtres, ils sont pourris mes rêves, ou pas?",
+        "actor": "Franck Pitiot",
+        "author": "Alexandre Astier",
+        "title": "Dies Iræ"
+      }
+    ],
+    "unknown": [
+      {
+        "quote": "Qu'est-ce que c'est que quelqu'un qui souffre et qui fait couler son sang par terre pour que tout le monde soit coupable ? Tous les suicidés sont le Christ. Toutes les baignoires sont le Graal... ",
+        "actor": "Alexandre Astier",
+        "author": "Alexandre Astier",
+        "title": "Dies Irae"
+      },
+      {
+        "quote": "Ça fait une heure qu'on vous achète tout ce qui vous passe sous le nez ! Si jamais on vous attaque, les gardes peuvent même pas vous défendre parce qu'ils sont obligés de transporter vos saloperies !",
+        "actor": "Alexandre Astier",
+        "author": "Alexandre Astier",
+        "title": "Dux Bellorum"
+      },
+      {
+        "quote": "Les rêves, ça se compare pas.",
+        "actor": "Alexandre Astier",
+        "author": "Alexandre Astier",
+        "title": "Dies Irae"
+      },
+      {
+        "quote": "Je suis le Roi Arthur, je ne désespère pas. Jamais je perds courage. Je suis un exemple pour les enfants.",
+        "actor": "Alexandre Astier",
+        "author": "Alexandre Astier",
+        "title": "Dies Irae"
+      },
+      {
+        "quote": "(À Séli)Les coups de génies, j'ai pas besoin qu'on me les souffle.",
+        "actor": "Lionnel Astier",
+        "author": "Alexandre Astier",
+        "title": "Nuptiae"
+      },
+      {
+        "quote": "(À Séli)Oui vous avez raison, soyez pas trop d'mon côté. On aurait l'air un peu couple à la con à être tout l'temps d'accord !",
+        "actor": "Lionnel Astier",
+        "author": "Alexandre Astier",
+        "title": "Arturus Rex"
+      },
+      {
+        "quote": "(À Loth)Je veux bien passer sur vos tentatives de putsch, vos combines véreuses... En revanche, si vous ne la fermez pas tout de suite, mais, définitivement, je vous aplatis les boules avec ça.",
+        "actor": "Lionnel Astier",
+        "author": "Alexandre Astier",
+        "title": "Praeceptores"
+      },
+      {
+        "quote": "[À Léodagan] Écoutez, comme ça a priori, ça m'évoque rien, mais honnêtement c'est possible. Ce serait assez le genre de la maison, en tout cas ! De l'autre côté, voyez un peu l'ironie, si j'avais pas fomenté une attaque par l'ouest, vous seriez allés vous écraser contre les Romains à l'est !\r\nOui, alors, pourquoi ? Pourquoi trahir sans arrêt les gens avec qui je collabore ? Je dirais que c'est probablement une réponse compulsive à une crainte de m'attacher. Briser une relation plutôt que la cultiver pour ne pas se retrouver démuni face au bonheur. Oui, pour répondre à votre question : j'ai peur d'aimer !",
+        "actor": "François Rollin",
+        "author": "Alexandre Astier",
+        "title": "Praeceptores"
+      },
+      {
+        "quote": "[Aux rois de Logres] Bon. Ca c'est bien gentil mais… À quel moment on trahit ?",
+        "actor": "François Rollin",
+        "author": "Alexandre Astier",
+        "title": "Nuptiae"
+      },
+      {
+        "quote": "Ah voilà ! Et c'est là le danger de la métaphore... si on parle avec des gros tas de bidoches, au bout de cinq minutes personne ne parle de la même chose!",
+        "actor": "François Rollin",
+        "author": "Alexandre Astier",
+        "title": "Nuptiae"
+      },
+      {
+        "quote": "Si on cueille pas les cerises tant qu'elles sont sur l'arbre, on fera tintin pour le clafoutis. ",
+        "actor": "François Rollin",
+        "author": "Alexandre Astier",
+        "title": "Nuptiæ"
+      },
+      {
+        "quote": "Moi les premières années avec ma femme, je faisais ces conneries aussi. Une réunion hebdomadaire pour régler les problèmes avant qu'ils ne s'enveniment. Résultat aujourd'hui, quand elle tombe sur moi dans les couloirs de la maison, elle a des remontées gastriques, elle me trouve laid et con, et elle essaie de me tuer trois fois par semaine. Euh depuis les tables rondes, j'y crois plus beaucoup...",
+        "actor": "François Rollin",
+        "author": "Alexandre Astier",
+        "title": "Arturus Rex"
+      },
+      {
+        "quote": "(À propos des biscuits de la marraine du roi d'Armorique) Ils sentent la pisse, aussi.",
+        "actor": "François Rollin",
+        "author": "Alexandre Astier",
+        "title": "Arturus Rex"
+      },
+      {
+        "quote": "Deus minimi placet : seul les dieux décident.",
+        "actor": "François Rollin",
+        "author": "Alexandre Astier",
+        "title": "Arturus Rex"
+      },
+      {
+        "quote": "[À Galessin] Soyons futés. [...] Non... mais pas vous ! Vous, vous pouvez rester tsoin-tsoin comme d'habitude.",
+        "actor": "François Rollin",
+        "author": "Alexandre Astier",
+        "title": "Lacrimosa"
+      },
+      {
+        "quote": "Votre salope de fille m'a renversé une pleine soupière de bouillon sur toute la zone génitale, ça m'a LITTÉRALEMENT cuit les boules ! Vous remarquerez à quel point il m'est égal de parler de mes noix à ma belle-mère, famille de tarés !",
+        "actor": "François Rollin",
+        "author": "Alexandre Astier",
+        "title": "Lacrimosa"
+      },
+      {
+        "quote": "Il est roi d'Orcanie, le sanglier boulimique, chère madame !",
+        "actor": "François Rollin",
+        "author": "Alexandre Astier",
+        "title": "Lacrimosa"
+      },
+      {
+        "quote": "[Parlant de sa femme, Anna] Bon bah moi... je la suis ! Parce que je suis... très amoureux.",
+        "actor": "François Rollin",
+        "author": "Alexandre Astier",
+        "title": "Lacrimosa"
+      },
+      {
+        "quote": "\"Mundi placet et spiritus minima\", ça n'a aucun sens mais on pourrait très bien imaginer une traduction du type : \"Le roseau plie, mais ne cède... qu'en cas de pépin\" ce qui ne veut rien dire non plus.",
+        "actor": "François Rollin",
+        "author": "Alexandre Astier",
+        "title": "Lacrimosa"
+      },
+      {
+        "quote": "Bon bon... Moi c'que j'en dis, c'est que, si vous arrivez à contenir vos élans, et à me laisser gérer tout ça à ma sauce, on pourrait bien se retrouver à la tête du Royaume en moins de temps qu'il n'en faut pour dire putsch. Ha ha ha ! J'aime assez ce p'tit ton décalé euh...",
+        "actor": "François Rollin",
+        "author": "Alexandre Astier",
+        "title": "Lacrimosa"
+      },
+      {
+        "quote": "Moi j'ai vomi deux fois mais c'est moi qu'ai ramassé\r\n !",
+        "actor": "Jacques Chambon",
+        "author": "Alexandre Astier",
+        "title": "Nuptiæ"
+      },
+      {
+        "quote": "Allez, y'a plein de bruit, là ! Si ça se trouve c'est bourré d'oiseaux venimeux. Y'en a des rouges, des jaunes, des re-rouges et des pourpres ! Y bouffent que des noisettes et des escalopes de veau. Et quand ils vous donnent un coup de bec vous voyez une grande lumière et ça vous donne la diarrhée !",
+        "actor": "Franck Pitiot",
+        "author": "Alexandre Astier",
+        "title": "Dux Bellorum"
+      },
+      {
+        "quote": "(à Arthur) Ouais en même temps ça vous a prouvé qu'on avait pas froid au ventre !\r\n(Arthur : aux yeux!)\r\nComment ?\r\n(Arthur : Aux yeux, pas froid au ventre.)\r\n(Karadoc : Froid aux yeux ? Comment c'est possible ça ?)\r\nBen si, à la limite avec du vent… mais bon si on a froid aux yeux on les ferme. !",
+        "actor": "Franck Pitiot",
+        "author": "Alexandre Astier",
+        "title": "Arturus Rex"
+      },
+      {
+        "quote": "Nan mais je l'ai déjà impressionné, moi ! Je lui ai expliqué une nouvelle technique de combat : on se bat à moitié à mains nues, et à moitié avec du calcium. J'peux vous dire il faisait moins le malin !",
+        "actor": "Franck Pitiot",
+        "author": "Alexandre Astier",
+        "title": "Dux Bellorum"
+      }
+    ]
+  }
+}

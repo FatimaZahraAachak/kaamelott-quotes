@@ -1,0 +1,759 @@
+{
+  "season": 1,
+  "quotes_by_episodes": {
+    "1": [
+      {
+        "quote": "Les villageois, je les emmerde !",
+        "actor": "Thomas Cousseau",
+        "author": "Alexandre Astier",
+        "title": "Le chevalier errant"
+      },
+      {
+        "quote": "Un village assailli de brigands, une femme qui se fait tabasser, une poule qui boîte, c'est pas les opprimés qui manquent ! Et là au moins, j'aurais l'impression de servir à quelque chose.",
+        "actor": "Thomas Cousseau",
+        "author": "Alexandre Astier",
+        "title": "Le chevalier errant"
+      }
+    ],
+    "2": [
+      {
+        "quote": "Quand vous vous l'vez pour bouffer, vous me réveillez, vous bougez, vous allumez les bougies, vous toussez, bref ! Vous ignorez mon existence ! [...] Eh ben là, pas un bruit, pas un mouvement, tout dans le furtif. Vous avez glissé du pageot comme un pet sur une plaque de verglas !",
+        "actor": "Joëlle Sevilla",
+        "author": "Alexandre Astier",
+        "title": "La Cassette II"
+      },
+      {
+        "quote": "Ou vous m'expliquez pourquoi vous rasez les murs comme un évadé de cachot, ou vous prenez ma main dans le pif ! ",
+        "actor": "Joëlle Sevilla",
+        "author": "Alexandre Astier",
+        "title": "La Cassette II"
+      }
+    ],
+    "3": [
+      {
+        "quote": "C'est une catastrophe !",
+        "actor": "Nicolas Gabion",
+        "author": "Alexandre Astier",
+        "title": "L'Aveu de Bohort"
+      }
+    ],
+    "4": [
+      {
+        "quote": "J'ai tout entendu et c'est honteux !!",
+        "actor": "Jacques Chambon",
+        "author": "Alexandre Astier",
+        "title": "Le Renfort Magique"
+      }
+    ],
+    "10": [
+      {
+        "quote": "Balancez-leur les radasses et qu'ils s'en aillent au diable !",
+        "actor": "Nicolas Gabion",
+        "author": "Alexandre Astier",
+        "title": "Le Fléau de Dieu II"
+      }
+    ],
+    "12": [
+      {
+        "quote": "Arthur ! Kaamelott, c'est zéro ! Des cailloux, des cailloux, des cailloux, ça m'énerve ! !",
+        "actor": "Lan Truong",
+        "author": "Alexandre Astier",
+        "title": "Le Fléau de Dieu II"
+      },
+      {
+        "quote": "Cette fois-ci, on part avec les femmes ! HAHAAAHA !!!!",
+        "actor": "Lan Truong",
+        "author": "Alexandre Astier",
+        "title": "Le Fléau de Dieu II"
+      }
+    ],
+    "16": [
+      {
+        "quote": "C'est vrai que, dans votre position, il y a plus de chance de subir un siège plutôt que d'en organiser un.",
+        "actor": "Axelle Laffont",
+        "author": "Alexandre Astier",
+        "title": "Séfriane d'Aquitaine "
+      },
+      {
+        "quote": "Je suis assez grande pour voir que si vous achetez des troncs d'arbres à ce prix-là, vous êtes en train de vous faire enfler !",
+        "actor": "Axelle Laffont",
+        "author": "Alexandre Astier",
+        "title": "Séfriane d'Aquitaine "
+      },
+      {
+        "quote": "Vous croyez quoi ? Que ça s'trouve dans l'cul des poules, le fric ?",
+        "actor": "Axelle Laffont",
+        "author": "Alexandre Astier",
+        "title": "Séfriane d'Aquitaine "
+      },
+      {
+        "quote": "Quand je vais raconter à mon oncle combien vous raquez pour vos béliers pourris, il va bien se marrer !",
+        "actor": "Axelle Laffont",
+        "author": "Alexandre Astier",
+        "title": "Séfriane d'Aquitaine "
+      },
+      {
+        "quote": "Quoi ? Qu'est-ce qu'y a ? On cherche la marave ?",
+        "actor": "Axelle Laffont",
+        "author": "Alexandre Astier",
+        "title": "Séfriane d'Aquitaine "
+      }
+    ],
+    "18": [
+      {
+        "quote": "Le poisson qui étouffe sur la berge remue plus que celui qui est dans l'eau. C'est bien la preuve de ce que je dis : si on se débat, c'est qu'on est en train de crever.",
+        "actor": "Bruno Salomone",
+        "author": "Alexandre Astier",
+        "title": "Le Déserteur"
+      },
+      {
+        "quote": "Non mais je bosse, moi, de jour. Je suis dans l'armée, je tiens pas un stand de crêpes.",
+        "actor": "Bruno Salomone",
+        "author": "Alexandre Astier",
+        "title": "Le Déserteur"
+      }
+    ],
+    "23": [
+      {
+        "quote": "Arthour ! On est fort en pomme.",
+        "actor": "Guillaume Briat",
+        "author": "Alexandre Astier",
+        "title": "Le dialogue de paix II"
+      },
+      {
+        "quote": "Arthour ! Qu'est-ce à dire que ceci ? ON EST FORTS ! En pommes…",
+        "actor": "Guillaume Briat",
+        "author": "Alexandre Astier",
+        "title": "Le dialogue de paix II"
+      },
+      {
+        "quote": "Non posso volo, no tépo mayo. Un posso volo, tandolon toulo. Tamasso (pet) tanlamalasso. Tamasso (pet) les oiseaux petits (sur l'air de \"À la volette\")",
+        "actor": "Guillaume Briat",
+        "author": "Alexandre Astier",
+        "title": "Le dialogue de paix II"
+      },
+      {
+        "quote": "Sire, sachez déjà que je ne suis pas homme à me méprendre sur le gaillard d'en face, mon petit doigt me dit que vous en êtes pas la moitié d'un !",
+        "actor": "Pascal Vincent",
+        "author": "Alexandre Astier",
+        "title": "Le Professionnel"
+      },
+      {
+        "quote": "Au même titre que le bar est fermé, sauf si c'est un poisson, tout travail mérite salaire !",
+        "actor": "Pascal Vincent",
+        "author": "Alexandre Astier",
+        "title": "Le Professionnel"
+      },
+      {
+        "quote": "Prêtez l'oreille sans ristourne !",
+        "actor": "Pascal Vincent",
+        "author": "Alexandre Astier",
+        "title": "Le Professionnel"
+      },
+      {
+        "quote": "Tête bien pensante est par deux fois force de décision !",
+        "actor": "Pascal Vincent",
+        "author": "Alexandre Astier",
+        "title": "Le Professionnel"
+      },
+      {
+        "quote": "Homme sans métier n'est plus apte à exercer une activité professionnelle !",
+        "actor": "Pascal Vincent",
+        "author": "Alexandre Astier",
+        "title": "Le Professionnel"
+      },
+      {
+        "quote": "Renommée, renommée, qui es-tu renommée ?!",
+        "actor": "Pascal Vincent",
+        "author": "Alexandre Astier",
+        "title": "Le Professionnel"
+      },
+      {
+        "quote": "Quand on connaît trop, on hésite et c'est un prompt renfort !",
+        "actor": "Pascal Vincent",
+        "author": "Alexandre Astier",
+        "title": "Le Professionnel"
+      }
+    ],
+    "24": [
+      {
+        "quote": "Le caca des pigeons c'est caca, faut pas manger.",
+        "actor": "Brice Fournier",
+        "author": "Alexandre Astier",
+        "title": "Les Suppléants"
+      },
+      {
+        "quote": "(Sur l'air de Promenons-nous dans les bois)\r\nPas du tout, les lapins, les lapins, c'est gentil !\r\nLe poissooon ! Le petit poissooon !",
+        "actor": "Brice Fournier",
+        "author": "Alexandre Astier",
+        "title": "Les Suppléants"
+      }
+    ],
+    "36": [
+      {
+        "quote": "(À Perceval) Vous racontez ce qui s'est passé, d'un coup, sans vous arrêter, et si vous changez des trucs, je vous envoie le registre à travers la gueule. Vu ?",
+        "actor": "Jean-Robert Lombard",
+        "author": "Alexandre Astier",
+        "title": "Les clous de la Sainte Croix"
+      },
+      {
+        "quote": "(À Roparzh) Excusez ! Y a moyen de vous entretenir deux secondes ? [Roparzh : Oui, c'est au sujet de quoi-t'est-ce ?] C'est au sujet que ce matin je suis passé par hasard devant vos enclos, et j'ai vu que vous aviez une jolie p'tite poule blanche ! [Roparzh : Oui, tout à fait !] Une jolie petite poule 'voyez, le bel animal […] C'est au sujet qu'en fait c'est la mienne, et que vous allez prendre un pain dans la tête, mais quelque chose de violent ! ",
+        "actor": "Serge Papagalli",
+        "author": "Alexandre Astier",
+        "title": "Feue La Poule de Guethenoc"
+      },
+      {
+        "quote": "(À Roparzh) Vous avez tué ma poule ?! Non mais est-ce que vous êtes pas un peu marteau, vous ? Parce que moi ça y est, j'ai les nerfs qui commencent à vriller ! Je vous montre : moi je bondis comme ça, et je vous arrive dessus en piqué diagonal. Et là c'est l'hymne à la cruauté, hein, un autel dressé au culte de la barbarie !",
+        "actor": "Serge Papagalli",
+        "author": "Alexandre Astier",
+        "title": "Feue La Poule de Guethenoc"
+      },
+      {
+        "quote": "(À Roparzh) Messieurs dames, dans quelques instants le grand spectacle de la souffrance. Si vous pouvez tâcher moyen de vous éloigner de 25 pieds, bons pieds, hein parce que ça va gicler un peu. !",
+        "actor": "Serge Papagalli",
+        "author": "Alexandre Astier",
+        "title": "Feue La Poule de Guethenoc"
+      },
+      {
+        "quote": "Mais tout à fait ! En parlant de... d'antidote hein, je souhaiterais vous suggérer un endroit ou vous pourriez éventuellement vous le carrer... en vous remerciant !",
+        "actor": "Gilles Graveleau",
+        "author": "Alexandre Astier",
+        "title": "Feue La Poule De Guethenoc"
+      },
+      {
+        "quote": "(À Guethenoc) Je dirais également que le genou peut partir dans les noix de manière assez soudaine et que ça pourrait éventuellement vous faire sortir les baloches par les oreilles. N'y voyez aucune malice !",
+        "actor": "Gilles Graveleau",
+        "author": "Alexandre Astier",
+        "title": "Feue La Poule De Guethenoc"
+      }
+    ],
+    "40": [
+      {
+        "quote": "Je suis un misérable !",
+        "actor": "Nicolas Gabion",
+        "author": "Alexandre Astier",
+        "title": "Arthur sensei"
+      }
+    ],
+    "43": [
+      {
+        "quote": "Ils ont rien ramené parce que c'est des débiles. Arrêtez d'envoyer Perceval et Karadoc en mission, c'est ridicule !",
+        "actor": "Thomas Cousseau",
+        "author": "Alexandre Astier",
+        "title": "Mission"
+      }
+    ],
+    "46": [
+      {
+        "quote": "Parce que j'ai le même type que les Jumelles maintenant ? ",
+        "actor": "Caroline Pascal",
+        "author": "Alexandre Astier",
+        "title": "Les Cheveux Noirs"
+      },
+      {
+        "quote": "Votre père, il a les cheveux noirs. Alors on continue de traiter tout le monde de bâtard ou on se calme ? ",
+        "actor": "Caroline Pascal",
+        "author": "Alexandre Astier",
+        "title": "Les Cheveux Noirs"
+      },
+      {
+        "quote": "C'est vexant de me ressembler ? C'est pour ça qu'on vous a choisi et qu'on vous a sorti de votre cambrousse, alors du respect ! ",
+        "actor": "Caroline Pascal",
+        "author": "Alexandre Astier",
+        "title": "Les Cheveux Noirs"
+      }
+    ],
+    "52": [
+      {
+        "quote": "(À Bohort) Ben voyons, mon colon !",
+        "actor": "Joëlle Sevilla",
+        "author": "Alexandre Astier",
+        "title": "Au bonheur des Dames"
+      }
+    ],
+    "55": [
+      {
+        "quote": "(À Guenièvre) Bohort il a une femme ! Vous pouvez me la refaire sans trembler des genoux celle-là ?",
+        "actor": "Joëlle Sevilla",
+        "author": "Alexandre Astier",
+        "title": "Au bonheur des Dames"
+      }
+    ],
+    "67": [
+      {
+        "quote": "Y'a toujours au moins deux solutions à un problème.",
+        "actor": "Bruno Fontaine",
+        "author": "Alexandre Astier",
+        "title": "La Potion de Fécondité II"
+      },
+      {
+        "quote": "(À Merlin) Le jour où vous serez à même de comprendre les rouages d'une monarchie, on aura soin de venir vous demander votre avis. En attendant, vous faites ce qu'on vous dit, ET VOUS LA BOUCLEZ !",
+        "actor": "Joëlle Sevilla",
+        "author": "Alexandre Astier",
+        "title": "La Potion de Fécondité II"
+      },
+      {
+        "quote": "(À Merlin) Soit vous fabriquez séance tenante une potion de fécondité qui fonctionne mieux que vos flacons de pisse habituels, soit mon mari ici présent se fera un plaisir d'outrepasser la hiérarchie et de vous mettre une trempe maison !",
+        "actor": "Joëlle Sevilla",
+        "author": "Alexandre Astier",
+        "title": "La Potion de Fécondité II"
+      },
+      {
+        "quote": "(À Léodagan) PIGNOUUUUF! (Puis à Elias et Merlin) Bon, et nous alors, qu'est-ce qu'on fait ? On traite ou on se fâche ? [Merlin : On se fâche. - Elias (à Merlin) : On traite !]",
+        "actor": "Joëlle Sevilla",
+        "author": "Alexandre Astier",
+        "title": "La Potion de Fécondité II"
+      }
+    ],
+    "70": [
+      {
+        "quote": "Alors, le ratichon ! On a un p'tit creux ?",
+        "actor": "Joëlle Sevilla",
+        "author": "Alexandre Astier",
+        "title": "La restriction II"
+      },
+      {
+        "quote": "Les placards sont fermés ! Vous allez retourner dans votre canfouine, au trot, et si la faim persiste, mangez des moustiques : c'est nourrissant, ça coûte rien, et ça débarrasse !",
+        "actor": "Joëlle Sevilla",
+        "author": "Alexandre Astier",
+        "title": "La restriction II"
+      },
+      {
+        "quote": "Des fuites ? Apprenez qu'avec le budget bouffe de Kaamelott, y'a de quoi lever une armée parallèle et envahir la moitié du monde connu.",
+        "actor": "Joëlle Sevilla",
+        "author": "Alexandre Astier",
+        "title": "La restriction II"
+      },
+      {
+        "quote": "(Au Père Blaise) Jouez pas au con ! Dans votre branche, on fait pas vœu de bouffer léger, quelque chose comme ça ?",
+        "actor": "Joëlle Sevilla",
+        "author": "Alexandre Astier",
+        "title": "La restriction II"
+      },
+      {
+        "quote": "(À Arthur, Léodagan et au Père Blaise) Je vais vous la faire à la cantonade dans le genre tragédie grecque, tâchez de vous partager ça au mieux : LA BOUFFE EST INTERDITE EN DEHORS DES HEURES DES REPAS !!!",
+        "actor": "Joëlle Sevilla",
+        "author": "Alexandre Astier",
+        "title": "La restriction II"
+      }
+    ],
+    "73": [
+      {
+        "quote": "Des fois on n'a pas le choix faut sacrifier des jeunes, c'est le grand qu'a dit.",
+        "actor": "Brice Fournier",
+        "author": "Alexandre Astier",
+        "title": "Witness"
+      }
+    ],
+    "74": [
+      {
+        "quote": "Ces bourgeois, ils savent plus quoi inventer ! A force de lire et d'écrire, ils deviennent tous plus cons les uns qu'les autres.",
+        "actor": "Serge Papagalli",
+        "author": "Alexandre Astier",
+        "title": "Saponides et Détergents"
+      },
+      {
+        "quote": "Qu'est-ce que vous voulez-vous insinuyer Sire ?",
+        "actor": "Gilles Graveleau",
+        "author": "Alexandre Astier",
+        "title": "Saponides et detergents"
+      }
+    ],
+    "86": [
+      {
+        "quote": "Noblesse bien remisée ne trouve jamais l'hiver à sa porte... Non, porte close...",
+        "actor": "Aurélien Portehaut",
+        "author": "Alexandre Astier",
+        "title": "La Chevalerie"
+      }
+    ],
+    "87": [
+      {
+        "quote": "(À Dame Ygerne, qui veut lui raconter son cauchemar)Oh je vous en prie, faites, ça fait tellement longtemps que je ne me suis pas évanouie dans mes urines...",
+        "actor": "Anne Girouard",
+        "author": "Alexandre Astier",
+        "title": "La veillée"
+      },
+      {
+        "quote": "(À Dame Ygerne, qui lui raconte son cauchemar)Ah, ça y est, il arrive le pipi !",
+        "actor": "Anne Girouard",
+        "author": "Alexandre Astier",
+        "title": "La veillée"
+      },
+      {
+        "quote": "(À Dame Ygerne, qui lui raconte son cauchemar)Ça vous ennuie, si j'me taille les veines?",
+        "actor": "Anne Girouard",
+        "author": "Alexandre Astier",
+        "title": "La veillée"
+      }
+    ],
+    "88": [
+      {
+        "quote": "(À propos d'une catapulte) Est-ce qu'on peut s'en servir pour donner de l'élan à un pigeon ?",
+        "actor": "Simon Astier",
+        "author": "Alexandre Astier",
+        "title": "L'étudiant"
+      }
+    ],
+    "90": [
+      {
+        "quote": "(À Grüdü) Quand on est idiot, on plante des carottes on ne s'occupe pas de sécurité !",
+        "actor": "Christian Bujeau",
+        "author": "Alexandre Astier",
+        "title": "L'assemblée des Rois 2e partie"
+      }
+    ],
+    "91": [
+      {
+        "quote": "J'ai pénétré leur lieu d'habitation de façon subrogative […] en tapinant.",
+        "actor": "Tony Saba",
+        "author": "Alexandre Astier",
+        "title": "L'Espion"
+      },
+      {
+        "quote": "[Arthur: Pour faire simple: on peut douter de tout sauf de la nécessité de se trouver du côté des opprimés]\r\nAh bon! C'est marrant parce que mon père, il a une phrase presque pareil: \"On peut douter de tout sauf de la nécessité de se trouver du côté de celui qui a le pognon\".",
+        "actor": "Simon Astier",
+        "author": "Alexandre Astier",
+        "title": "La Chevalerie"
+      },
+      {
+        "quote": "La chevalerie, c'est pas là où on range les chevaux ?",
+        "actor": "Simon Astier",
+        "author": "Alexandre Astier",
+        "title": "La Chevalerie"
+      },
+      {
+        "quote": "(Gauvain: Excusez nous mon oncle, notre vocabulaire n'est pas tres fourni) Ouais bah vous encore ça va, moi, même le mot vocabulaire je suis pas sûr à 100% !",
+        "actor": "Simon Astier",
+        "author": "Alexandre Astier",
+        "title": "La Chevalerie"
+      }
+    ],
+    "96": [
+      {
+        "quote": "En voilà une bonne chose, faisons la liste des cons, et puis ça me donnera l'occasion de gratter du papier.",
+        "actor": "Jean-Robert Lombard",
+        "author": "Alexandre Astier",
+        "title": "Le Médiateur"
+      },
+      {
+        "quote": "Vous n'êtes pas le plus fort, Môssieur Élias ! Quand on confond un clafoutis et une part de clafoutis, on vient pas la ramener !",
+        "actor": "Jacques Chambon",
+        "author": "Alexandre Astier",
+        "title": "Les Défis De Merlin II"
+      }
+    ],
+    "98": [
+      {
+        "quote": "J'ai dit \"elle aussi\" ? […] Oh, ça m'étonne, ça... Vous êtes sûr que j'ai pas dit \"elle est sympa\" ?",
+        "actor": "Audrey Fleurot",
+        "author": "Alexandre Astier",
+        "title": "Hollow Man"
+      },
+      {
+        "quote": "En même temps, admettez que me tuer n'aurait pas beaucoup de sens ! Vos nerfs seraient soulagés dans un premier temps, je ne dis pas, mais si vous considérez la situation avec un minimum de recul, vous vous apercevrez que le transport de votre hargne sur ma personne n'est pas départi d'une certaine forme d'absurdité. Et c'est là que j'ai envie de dire : est-ce que ça vaut bien le coup ?",
+        "actor": "Nicolas Gabion",
+        "author": "Alexandre Astier",
+        "title": "La Dispute I"
+      },
+      {
+        "quote": "(À Bohort qui vient de lui déclarer que Lancelot est amoureux d'elle)Mais qu'est-ce que vous déconnez, Seigneur Bohort ? Vous avez picolé ?",
+        "actor": "Anne Girouard",
+        "author": "Alexandre Astier",
+        "title": "Hollow Man"
+      }
+    ],
+    "99": [
+      {
+        "quote": "Eh bien puisque c'est ça, allez-y : détruisez tout ! Entretuez-vous ! Mettez la Bretagne à feu et à sang ! Et ne comptez plus sur moi pour vous amener mes gâteaux à la purée de pomme dont vous êtes si friand ! Dorénavant, vous devrez vous les cuisiner vous-même ! ENTRE DEUX MISES À SAC !",
+        "actor": "Nicolas Gabion",
+        "author": "Alexandre Astier",
+        "title": "La Dispute II"
+      },
+      {
+        "quote": "Vous savez que j'occupe à mi-temps ma place à la Table Ronde, et que l'autre moitié de mon temps je reprends ma place de chevalier errant... Eh bien tout ça, c'est fini. [ARTHUR : C'est-à-dire, vous revenez définitivement ?] Non, je 'pars' définitivement.",
+        "actor": "Thomas Cousseau",
+        "author": "Alexandre Astier",
+        "title": "La Dispute"
+      },
+      {
+        "quote": "Qu'est-ce que vous voulez que je développe ? Vous n'êtes pas de taille à mener la quête du Graal, vous n'avez pas les épaules. De plus comme vous êtes incapable de vous séparer de la bande de pantins ridicules qui vous sert de gouvernement, vous passez pour un faible et un laxiste aux yeux du peuple et des pays voisins, et puis je parle pas des dieux évidemment, ceux-là, s'ils pouvaient parler... […] Et même tout nu et sur un pied, j'irai toujours cent fois plus loin que vous et votre risible compagnie de crétins !",
+        "actor": "Thomas Cousseau",
+        "author": "Alexandre Astier",
+        "title": "La Dispute"
+      }
+    ],
+    "unknown": [
+      {
+        "quote": "Eh bien, c'est l'histoire d'un petit ourson qui s'appelle… Arthur. Et y'a une fée, un jour, qui vient voir le petit ourson et qui lui dit : Arthur tu vas partir à la recherche du Vase Magique. Et elle lui donne une épée hmm… magique (ouais, parce qu'y a plein de trucs magiques dans l'histoire, bref) alors le petit ourson il se dit : \"Heu, chercher le Vase Magique ça doit être drôlement difficile, alors il faut que je parte dans la forêt pour trouver des amis pour m'aider.\" Alors il va voir son ami Lancelot… le cerf (parce que le cerf c'est majestueux comme ça), heu, Bohort le faisan et puis Léodagan… heu… l'ours, ouais c'est un ours aussi, c'est pas tout à fait le même ours mais bon. Donc Léodagan qui est le père de la femme du petit ourson, qui s'appelle Guenièvre la truite… non, non, parce que c'est la fille de… non c'est un ours aussi puisque c'est la fille de l'autre ours, non parce qu'après ça fait des machins mixtes, en fait un ours et une truite… non en fait ça va pas. Bref, sinon y'a Gauvain le neveu du petit ourson qui est le fils de sa sœur Anna, qui est restée à Tintagel avec sa mère Igerne la… bah non, ouais du coup je suis obligé de foutre des ours de partout sinon on pige plus rien dans la famille… Donc c'est des ours, en gros, enfin bref… Ils sont tous là et donc Petit Ourson il part avec sa troupe à la recherche du Vase Magique. Mais il le trouve pas, il le trouve pas parce qu'en fait pour la plupart d'entre eux c'est… c'est des nazes : ils sont hyper mous, ils sont bêtes, en plus y'en a qu'ont la trouille. Donc il décide de les faire bruler dans une grange pour s'en débarrasser… Donc la fée revient pour lui dire : \"Attention petit ourson, il faut être gentil avec ses amis de la forêt\" quand même c'est vrai, et du coup Petit Ourson il lui met un taquet dans la tête à la fée, comme ça : \"BAH !\". Alors la fée elle est comme ça et elle s'en va… et voilà et en fait il trouve pas le vase. En fait il est… il trouve pas… et Petit Ourson il fait de la dépression et tous les jours il se demande s'il va se tuer ou… pas…",
+        "actor": "Alexandre Astier",
+        "author": "Alexandre Astier",
+        "title": "Legenda"
+      },
+      {
+        "quote": "Le Graal, je sais pas où il est mais il va y rester un moment, c'est moi qui vous l'dis !",
+        "actor": "Alexandre Astier",
+        "author": "Alexandre Astier",
+        "title": "La mission"
+      },
+      {
+        "quote": "Quand on file une histoire à un copiste, pour qu'il en fasse 3 exemplaires, qu'ça va lui prendre trois mois,et qu'ça va coûter la peau des fesses, c'est pas pour raconter le temps qu'il fait ou ce que vous avez bouffé le midi, hein, il faut qu'ça pète !",
+        "actor": "Alexandre Astier",
+        "author": "Alexandre Astier",
+        "title": "La poétique - IIème partie "
+      },
+      {
+        "quote": "Le Saint-Suaire ? Vous avez foutu en l'air le Saint-Suaire ?",
+        "actor": "Alexandre Astier",
+        "author": "Alexandre Astier",
+        "title": "Les clous de la sainte croix"
+      },
+      {
+        "quote": "La religion c'est le bordel, admettez-le ! Alors laissez-moi prier c'que j'veux tranquille. 'M'empêche pas d'la chercher, votre saloperie de Graal.",
+        "actor": "Alexandre Astier",
+        "author": "Alexandre Astier",
+        "title": "Le Culte Secret"
+      },
+      {
+        "quote": "Mais c'est pas vrai mais c'est pas vrai mais c'est pas vraiiiiiiii !",
+        "actor": "Alexandre Astier",
+        "author": "Alexandre Astier",
+        "title": "Les clous de la Sainte Croix"
+      },
+      {
+        "quote": "\r\n[Bohort: Ça dépend, Attila vous le comptez comme un Hun ?]\r\nBen évidemment, j'le compte pas comme un Ibère !",
+        "actor": "Alexandre Astier",
+        "author": "Alexandre Astier",
+        "title": "Le fléau de Dieu II"
+      },
+      {
+        "quote": "(À Perceval) Est-ce que vous avez souvenir qu'il se soit passé quelque chose entre Mevanwi et moi ?\r\nPerceval : À quel niveau ?\r\nAu niveau... du chou rouge.",
+        "actor": "Alexandre Astier",
+        "author": "Alexandre Astier",
+        "title": "Ablutions"
+      },
+      {
+        "quote": "(À Sefriane d'aquitaine) Mais votre oncle mes béliers pourris il va se les prendre dans le fion !",
+        "actor": "Alexandre Astier",
+        "author": "Alexandre Astier",
+        "title": "Seriane d'aquitaine"
+      },
+      {
+        "quote": "Vous savez, euh si on fait fouetter les ouvriers et qu'on menace de les brûler vifs, ils peuvent peut-être finir tout à l'heure, hein... (regard désespéré à Arthur) Non ? Oh bon, bah... je vais... pleurer un petit peu... (sanglots)... Excusez-moi.",
+        "actor": "Anne Girouard",
+        "author": "Alexandre Astier",
+        "title": "La veillée"
+      },
+      {
+        "quote": "C'est normal, c'est en se cassant la gueule qu'on apprend à marcher. Combien de fois j'ai failli m'étouffer avec un os de lapin. Il faut jamais se laisser abattre par un échec, c'est ça le secret.",
+        "actor": "Jean-Christophe Hembert",
+        "author": "Alexandre Astier",
+        "title": "Le Tourment III"
+      },
+      {
+        "quote": "Oh le con! Mais il est pas fini d'affiner! ",
+        "actor": "Jean-Christophe Hembert",
+        "author": "Alexandre Astier",
+        "title": "La Grande Bataille"
+      },
+      {
+        "quote": "La neige qui poudroie dans la solitude de notre enfance. Qu'est ce que vous dites de ça ? ",
+        "actor": "Jean-Christophe Hembert",
+        "author": "Alexandre Astier",
+        "title": "Le Tourment III"
+      },
+      {
+        "quote": "On tombe sur le fric, comme ça, du premier coup ! On s'est même pas fait un cor au pied !",
+        "actor": "Jean-Christophe Hembert",
+        "author": "Alexandre Astier",
+        "title": "La menace fantôme"
+      },
+      {
+        "quote": "Cette histoire de Graal, ça a assez traîné ! […] Si c'est pas moi qui prend les choses en main, on y est encore dans cent piges… […] Préparez la fiesta, j'suis un héros !",
+        "actor": "Jean-Christophe Hembert",
+        "author": "Alexandre Astier",
+        "title": "La Corne d'abondance"
+      },
+      {
+        "quote": "Parce que d'un point de vue santé publique, il vaut mieux bouffer ça une fois par mois que de la merde tous les jours. Je vais vous dire, à ce niveau là, c'est plus de la gastronomie, c'est de l'érotisme.",
+        "actor": "Jean-Christophe Hembert",
+        "author": "Alexandre Astier",
+        "title": "Cuisine et Dépendances"
+      },
+      {
+        "quote": "La joie de vivre et le jambon, y'a pas trente-six recettes du bonheur !",
+        "actor": "Jean-Christophe Hembert",
+        "author": "Alexandre Astier",
+        "title": "Le Législateur"
+      },
+      {
+        "quote": "Parce que mon couteau pour le pâté, euuh, y'a rien à faire, jm'en tape.",
+        "actor": "Jean-Christophe Hembert",
+        "author": "Alexandre Astier",
+        "title": "Le Porte Bonheur"
+      },
+      {
+        "quote": "Bon par exemple moi j'adore les fraises, bon bah si j'bouffe 3 bassines de fraises en 1 heure ah bah j'choppe la chiasse hein, j'suis comme tout l'monde hein...",
+        "actor": "Lionnel Astier",
+        "author": "Alexandre Astier",
+        "title": "Le Magnanime"
+      },
+      {
+        "quote": "Moi, j'ai appris à lire, et ben je souhaite ça à personne !",
+        "actor": "Lionnel Astier",
+        "author": "Alexandre Astier",
+        "title": "L'Assemblée des rois 2eme partie"
+      },
+      {
+        "quote": "(À Séli, à propos de Merlin)Quoi, j'y vais ? Je l'avoine ?",
+        "actor": "Lionnel Astier",
+        "author": "Alexandre Astier",
+        "title": "La Potion de Fécondité II"
+      },
+      {
+        "quote": "Eh bah mon vieux... Pour ça comme pour le reste, on n'est pas à la hauteur de la légende.",
+        "actor": "Lionnel Astier",
+        "author": "Alexandre Astier",
+        "title": "Le Fléau de Dieu II"
+      },
+      {
+        "quote": "(À la Dame du Lac, que tout le monde peut voir, sauf Arthur) Nooon, mais c'est bon, ne me prenez pas pour une bille, non plus ! Vous êtes la Dame du Lac.",
+        "actor": "Lionnel Astier",
+        "author": "Alexandre Astier",
+        "title": "Aux Yeux de Tous II"
+      },
+      {
+        "quote": "Ave Cesar, rosae rosam, et spiritus rex ! Ah non, parce que là, j'en ai marre !",
+        "actor": "François Rollin",
+        "author": "Alexandre Astier",
+        "title": "L'Assemblée des rois 2eme partie"
+      },
+      {
+        "quote": "Tempora mori, tempora mundis recorda. Voilà. Eh bien ça, par exemple, ça veut absolument rien dire, mais l'effet reste le même, et pourtant j'ai jamais foutu les pieds dans une salle de classe attention !",
+        "actor": "François Rollin",
+        "author": "Alexandre Astier",
+        "title": "L'Assemblée des rois 2eme partie"
+      },
+      {
+        "quote": "Les mômes maintenant, ils lisent, ils lisent, ils lisent et résultat...ils sont encore puceaux à 10 ans...",
+        "actor": "François Rollin",
+        "author": "Alexandre Astier",
+        "title": "L'Assemblée des rois 2eme partie"
+      },
+      {
+        "quote": "Je ne reviendrai plus jamais, cette fois je le dis, je le fais, je reste chez moi. Merde. Ça suffit. ",
+        "actor": "François Rollin",
+        "author": "Alexandre Astier",
+        "title": "L'Assemblée des rois 2eme partie"
+      },
+      {
+        "quote": "Moi, je dis que c'est magique à cause des merdes qui pendouillent, mais ça se trouve, c'est pas ça ...",
+        "actor": "Jacques Chambon",
+        "author": "Alexandre Astier",
+        "title": "L'arche de transport"
+      },
+      {
+        "quote": "Sans blague on pourrait pas fêter la mort des mecs que je connais pour une fois ? Comment ça ? C'est toujours la mort de vos potes à vous que l'on fête, moi dans quatre jours c'est l'anniversaire de la mort d'un oncle à moi, sans faire exprès il s'est tiré dessus avec un arc.",
+        "actor": "Franck Pitiot",
+        "author": "Alexandre Astier",
+        "title": "Le Jour D'Alexandre"
+      },
+      {
+        "quote": "(Aux jeunes chevaliers) Le Graal, c'est une vraie saloperie, méfiez-vous. Un jour c'est un vase, une semaine après une pierre incandescente. [...] Incandescente, c'est : qui peut accaparer des objets sans resurgir sur autrui.",
+        "actor": "Franck Pitiot",
+        "author": "Alexandre Astier",
+        "title": "Les Suppléants"
+      },
+      {
+        "quote": "Non, vous, vous vous maravez. Quand on a pas de technique, il faut y aller à la zob.",
+        "actor": "Franck Pitiot",
+        "author": "Alexandre Astier",
+        "title": "Morituri"
+      },
+      {
+        "quote": "SI VOUS VOULEZ QU'ON SORTE LES PIEDS DEVANT, FAUDRA NOUS PASSER SUR L'COOOORPS !",
+        "actor": "Franck Pitiot",
+        "author": "Alexandre Astier",
+        "title": "La menace fantôme"
+      },
+      {
+        "quote": "Le code c'est \"le code\" ? Ça va, ils se sont pas trop cassé le bonnet, pour l'trouver celui-là !",
+        "actor": "Franck Pitiot",
+        "author": "Alexandre Astier",
+        "title": "Poltergeist"
+      },
+      {
+        "quote": "Y'a du grabuge alors on appelle les 2 couillons... On met les glandus à profit !",
+        "actor": "Franck Pitiot",
+        "author": "Alexandre Astier",
+        "title": "Poltergeist"
+      },
+      {
+        "quote": "(A Arthur) Ça prouve que j'ai de l'ubiquité... De l'humilité ? C'est pas quand il y a des infiltrations ?",
+        "actor": "Franck Pitiot",
+        "author": "Alexandre Astier",
+        "title": "L'Etudiant"
+      },
+      {
+        "quote": "À ROULEEEEETTES !! HOULA... J'l'ai un peu trop gueulé ça, non ? À roulettes.",
+        "actor": "Franck Pitiot",
+        "author": "Alexandre Astier",
+        "title": "L'Etudiant"
+      },
+      {
+        "quote": "Ah, mais c'est de là que ça vient ! Quand on dit \"ça va comme sur des roulettes\". En fait ça veut dire qu'le mec il peut balancer un morceau de rocher comme une catapulte, il continue quand même d'avancer d'façon mobile. ",
+        "actor": "Franck Pitiot",
+        "author": "Alexandre Astier",
+        "title": "L'Etudiant"
+      },
+      {
+        "quote": "Une maquette ?! Vous avez pas dit qu'c'était une catapulte ?",
+        "actor": "Franck Pitiot",
+        "author": "Alexandre Astier",
+        "title": "L'Etudiant"
+      },
+      {
+        "quote": "[En parlant de la Dame du Lac que, pour une fois, tout le monde, sauf Arthur, peut voir] Ouh làlà! elle va pas me gonfler longtemps, la rouquine !!!",
+        "actor": "Franck Pitiot",
+        "author": "Alexandre Astier",
+        "title": "Aux Yeux De Tous II"
+      },
+      {
+        "quote": "Les 3 actes, c'est les bonnes femmes qui sont mi-taupes mi-déesses, et qui ont forcé les mecs de Bethléem à construire les pyramides.",
+        "actor": "Franck Pitiot",
+        "author": "Alexandre Astier",
+        "title": "La poétique, 1{{exp|ère}}partie"
+      },
+      {
+        "quote": "Est-ce que vous avez assez de dés pour remplir un seau comme ça ? [Le tavernier n'en a que trois] C'est plus facile d'en tirer cent ou deux-cents d'un coup et d'additionner, parce que là avec trois, on va être obligés de tirer quarante fois de suite à chaque tour.",
+        "actor": "Franck Pitiot",
+        "author": "Alexandre Astier",
+        "title": "Chante Sloubi"
+      },
+      {
+        "quote": "Sloubi 1, sloubi 2, sloubi 3, sloubi 4, sloubi 5 [...] sloubi 324, sloubi 325!...",
+        "actor": "Franck Pitiot",
+        "author": "Alexandre Astier",
+        "title": "Chante Sloubi"
+      },
+      {
+        "quote": "C'est moi qui remporte le tour. Quand on remporte le tour à Sloubi, on a quatorze solutions possibles : soit on annule le tour ; soit on passe ; soit on change de sens ; soit on recalcule les points ; soit on compte ; soit on divise par six ; soit on jette les bouts de bois de quinze pouces, ça c'est quand on joue avec les bouts de bois ; soit on se couche ; soit on joue sans atouts. Et après y'a les appels : plus un ; plus deux ; attrape oiseaux ; régoudon ; ou chante Sloubi. [...] Comme vous êtes second, vous avez plus que dix-neuf solutions possibles : soit vous passez ; soit vous sciez en deux les cinquante poutrelles de trente pieds, mais ça c'est quand on joue avec les bouts de bois. Sinon c'est les relances : doublette ; jeu carré ; jeu de piste ; jeu gagnant ; jeu moulin ; jeu-jeu ; joue-jeu ; joue-joue ; joue-jié ; joue-ganou ; gagnar ; catakt ; tacat ; cacatac ; cagat-cata et ratacat-mic. Ou : chante Sloubi. Nous, on va faire que chante Sloubi.",
+        "actor": "Franck Pitiot",
+        "author": "Alexandre Astier",
+        "title": "Chante Sloubi"
+      },
+      {
+        "quote": "Je vous ai vu une fois dans une carriole, tirée par un cheval. Enfin, la carriole tirée par un cheval.",
+        "actor": "Franck Pitiot",
+        "author": "Alexandre Astier",
+        "title": "L'Empressée"
+      },
+      {
+        "quote": "Dans le Languedoc, ils m'appellent Provençal. Mais c'est moi qui m'suis gouré en disant mon nom. Sinon, en Bretagne, c'est le Gros Faisan au sud, et au nord, c'est juste Ducon ..",
+        "actor": "Franck Pitiot",
+        "author": "Alexandre Astier",
+        "title": "Le Sanglier De Cornouailles"
+      }
+    ]
+  }
+}
