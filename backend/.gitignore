@@ -70,3 +70,7 @@ out/
 dist-ssr/
 coverage/
 .nyc_output/
+
+# SQLite / Drizzle local database
+data.db
+*.db-journal
