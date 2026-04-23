@@ -11,10 +11,12 @@ export const quotes = sqliteTable(
     character: text('character'),
     author: text('author').notNull(),
     quote: text('quote').notNull(),
+    quoteNormalized: text('quote_normalized').notNull(),
   },
   (table) => ({
     actorIdx: index('idx_quotes_actor').on(table.actor),
     bookIdx: index('idx_quotes_book').on(table.book),
+    quoteNormalizedIdx: index('idx_quotes_quote_normalized').on(table.quoteNormalized),
   })
 )
 

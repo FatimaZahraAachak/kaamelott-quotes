@@ -1,6 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import { Quote } from './types'
+import { normalizeText } from '../lib/text'
 
 const QUOTES_PATH = path.join(__dirname, '../../../assets/quotes')
 const CHARACTERS_PATH = path.join(__dirname, '../../../assets/characters.json')
@@ -58,6 +59,7 @@ function normalizeFormatA(raw: RawFormatA, bookName: string): Quote[] {
         character: resolveCharacter(rawQuote.actor),
         author: rawQuote.author,
         quote: rawQuote.quote,
+        quoteNormalized: normalizeText(rawQuote.quote),
       }
       quotes.push(normalizedQuote)
     }
@@ -85,6 +87,7 @@ function normalizeFormatB(raw: RawQuoteB[]): Quote[] {
     character: resolveCharacter(item.acteur),
     author: item.auteur,
     quote: item.citation,
+    quoteNormalized: normalizeText(item.citation),
   }))
 }
 
