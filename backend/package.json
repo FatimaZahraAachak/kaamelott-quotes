@@ -8,7 +8,8 @@
     "build": "tsc",
     "test": "jest",
     "db:generate": "drizzle-kit generate",
-    "db:migrate": "ts-node src/data/migrate.ts"
+    "db:migrate": "ts-node src/data/migrate.ts",
+    "seed": "ts-node src/data/seed.ts"
   },
   "keywords": [],
   "author": "",
