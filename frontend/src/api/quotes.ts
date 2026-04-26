@@ -15,7 +15,7 @@ export async function fetchQuotes(
     url.set('character', params.character)
   }
 
-  const res = await fetch(`/quotes?${url.toString()}`)
+  const res = await fetch(`${import.meta.env.VITE_API_URL}/quotes?${url.toString()}`)
   if (!res.ok) {
     throw new Error(`HTTP ${res.status}`)
   }
