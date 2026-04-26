@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import { QuoteList } from './components/QuoteList'
 import { SearchBar } from './components/SearchBar'
+import { useDebouncedValue } from './hooks/useDebouncedValue'
 
 export default function App() {
   const [search, setSearch] = useState('')
+  const debouncedSearch = useDebouncedValue(search, 400)
 
   return (
     <main className="min-h-screen bg-slate-50 py-8 px-4">
@@ -14,7 +16,7 @@ export default function App() {
         <div className="mb-6">
           <SearchBar value={search} onChange={setSearch} />
         </div>
-        <QuoteList search={search} />
+        <QuoteList search={debouncedSearch} />
       </div>
     </main>
   )
