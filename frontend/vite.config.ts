@@ -8,6 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/quotes': 'http://localhost:3000',
+      '/characters': 'http://localhost:3000',
     },
   },
 })

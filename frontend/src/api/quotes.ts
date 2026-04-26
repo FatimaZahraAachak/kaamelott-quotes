@@ -2,6 +2,7 @@ import type { QuotesResponse } from '../types/quote'
 
 type FetchQuotesParams = {
   search: string
+  character: string
 }
 export async function fetchQuotes(
   params:  FetchQuotesParams
@@ -9,6 +10,9 @@ export async function fetchQuotes(
   const url = new URLSearchParams({ pageSize: '20' })
   if (params.search) {
     url.set('q', params.search)
+  }
+  if (params.character) {
+    url.set('character', params.character)
   }
 
   const res = await fetch(`/quotes?${url.toString()}`)
