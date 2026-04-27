@@ -2,11 +2,15 @@ import { useState } from 'react'
 import { QuoteList } from './components/QuoteList'
 import { SearchBar } from './components/SearchBar'
 import { CharacterSelect } from './components/CharacterSelect'
+import { SortSelect } from './components/SortSelect'
+import { OrderToggle } from './components/OrderToggle'
 import { useDebouncedValue } from './hooks/useDebouncedValue'
 
 export default function App() {
   const [search, setSearch] = useState('')
   const [character, setCharacter] = useState('')
+  const [sort, setSort] = useState('book')
+  const [order, setOrder] = useState<'asc' | 'desc'>('asc')
   const debouncedSearch = useDebouncedValue(search, 400)
 
   return (
@@ -21,7 +25,18 @@ export default function App() {
         <div className="mb-6">
           <CharacterSelect value={character} onChange={setCharacter} />
         </div>
-        <QuoteList search={debouncedSearch} character={character} />
+        <div className="mb-6 flex gap-2">
+          <div className="flex-1">
+            <SortSelect value={sort} onChange={setSort} />
+          </div>
+          <OrderToggle value={order} onChange={setOrder} />
+        </div>
+        <QuoteList
+          search={debouncedSearch}
+          character={character}
+          sort={sort}
+          order={order}
+        />
       </div>
     </main>
   )

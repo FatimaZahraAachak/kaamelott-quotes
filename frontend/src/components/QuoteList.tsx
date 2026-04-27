@@ -4,12 +4,14 @@ import { fetchQuotes } from '../api/quotes'
 type Props = {
   search: string
   character: string
+  sort: string
+  order: 'asc' | 'desc'
 }
 
-export function QuoteList({ search, character }: Props) {
+export function QuoteList({ search, character, sort, order }: Props) {
   const { data, isLoading, isError, error } = useQuery({
-    queryKey: ['quotes', { search, character }],
-    queryFn: () => fetchQuotes({ search, character }),
+    queryKey: ['quotes', { search, character, sort, order }],
+    queryFn: () => fetchQuotes({ search, character, sort, order }),
   })
 
   if (isLoading) {

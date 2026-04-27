@@ -3,6 +3,8 @@ import type { QuotesResponse } from '../types/quote'
 type FetchQuotesParams = {
   search: string
   character: string
+  sort: string
+  order: 'asc' | 'desc'
 }
 export async function fetchQuotes(
   params:  FetchQuotesParams
@@ -13,6 +15,12 @@ export async function fetchQuotes(
   }
   if (params.character) {
     url.set('character', params.character)
+  }
+  if (params.sort) {
+    url.set('sort', params.sort)
+  }
+  if (params.order) {
+    url.set('order', params.order)
   }
 
   const res = await fetch(`${import.meta.env.VITE_API_URL}/quotes?${url.toString()}`)
