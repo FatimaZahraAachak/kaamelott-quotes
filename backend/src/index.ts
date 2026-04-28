@@ -7,8 +7,8 @@ import { getDb } from './data/db'
 export function createApp() {
   const app = express()
 
-  // CORS ouvert à toutes les origines : OK en local pour le dev front (Vite sur 5173),
-  // à restreindre en prod via { origin: [...] }.
+  // CORS open to all origins: fine for local frontend dev (Vite on 5173);
+  // restrict in prod via { origin: [...] }.
   app.use(cors())
   app.use(express.json())
 
@@ -35,6 +35,6 @@ if (require.main === module) {
 
   const app = createApp()
   app.listen(PORT, () => {
-    console.log(`Serveur démarré sur http://localhost:${PORT}`)
+    console.log(`Server started on http://localhost:${PORT}`)
   })
 }

@@ -14,7 +14,7 @@ function main(): void {
     }
   })()
 
-  console.log(`✓ ${rows.length} citations insérées`)
+  console.log(`✓ ${rows.length} quotes inserted`)
   sqlite.close()
 }
 

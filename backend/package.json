@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec ts-node src/index.ts",
+    "dev": "tsx watch src/index.ts",
     "build": "tsc",
     "test": "vitest",
     "test:run": "vitest run",
     "db:generate": "drizzle-kit generate",
-    "db:migrate": "ts-node src/data/migrate.ts",
-    "seed": "ts-node src/data/seed.ts"
+    "db:migrate": "tsx src/data/migrate.ts",
+    "seed": "tsx src/data/seed.ts"
   },
   "keywords": [],
   "author": "",
@@ -29,9 +29,8 @@
     "@types/node": "^25.6.0",
     "@types/supertest": "^7.2.0",
     "drizzle-kit": "^0.31.10",
-    "nodemon": "^3.1.14",
     "supertest": "^7.2.2",
-    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
     "typescript": "^6.0.3",
     "vitest": "^4.1.5"
   }

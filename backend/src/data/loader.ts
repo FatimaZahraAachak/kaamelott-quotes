@@ -6,7 +6,7 @@ import { normalizeText } from '../lib/text'
 const QUOTES_PATH = path.join(__dirname, '../../../assets/quotes')
 const CHARACTERS_PATH = path.join(__dirname, '../../../assets/characters.json')
 
-// 1.1 — dictionnaire acteur -> personnage
+// 1.1 — actor -> character dictionary
 const charactersDict: Record<string, string> = JSON.parse(
   fs.readFileSync(CHARACTERS_PATH, 'utf-8')
 )
@@ -15,7 +15,7 @@ function resolveCharacter(actor: string): string | null {
   return charactersDict[actor] ?? null
 }
 
-// 1.2 — source de vérité pour le nom de livre (le JSON du format A ne le fournit pas)
+// 1.2 — source of truth for book names (format A JSON does not provide them)
 const FILE_TO_BOOK: Record<string, string> = {
   livre_I: 'Livre I',
   livre_II: 'Livre II',
@@ -25,12 +25,12 @@ const FILE_TO_BOOK: Record<string, string> = {
   livre_VI: 'Livre VI',
 }
 
-// 1.3 — détection de format
+// 1.3 — format detection
 function detectFormat(raw: unknown): 'A' | 'B' {
   return Array.isArray(raw) ? 'B' : 'A'
 }
 
-// 1.4 — format A : objet { season, quotes_by_episodes: { "<num>": [...] } }
+// 1.4 — format A: object { season, quotes_by_episodes: { "<num>": [...] } }
 interface RawQuoteA {
   quote: string
   actor: string
@@ -68,7 +68,7 @@ function normalizeFormatA(raw: RawFormatA, bookName: string): Quote[] {
   return quotes
 }
 
-// 1.5 — format B : tableau plat avec champs en français
+// 1.5 — format B: flat array with French field names (kept verbatim to match the source JSON)
 interface RawQuoteB {
   citation: string
   acteur: string
@@ -91,7 +91,7 @@ function normalizeFormatB(raw: RawQuoteB[]): Quote[] {
   }))
 }
 
-// 1.6 — orchestrateur
+// 1.6 — orchestrator
 export function loadAllQuotes(): Quote[] {
   const files = Object.keys(FILE_TO_BOOK)
   const allQuotes: Quote[] = []

@@ -11,4 +11,4 @@ const db = drizzle(sqlite)
 
 migrate(db, { migrationsFolder: MIGRATIONS_PATH })
 sqlite.close()
-console.log('Migrations appliquées ✓')
+console.log('Migrations applied ✓')
