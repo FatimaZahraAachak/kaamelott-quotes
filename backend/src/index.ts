@@ -7,6 +7,8 @@ import { getDb } from './data/db'
 export function createApp() {
   const app = express()
 
+  // CORS ouvert à toutes les origines : OK en local pour le dev front (Vite sur 5173),
+  // à restreindre en prod via { origin: [...] }.
   app.use(cors())
   app.use(express.json())
 

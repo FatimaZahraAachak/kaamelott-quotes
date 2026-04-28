@@ -1,5 +1,5 @@
 import { Router, Request, Response } from 'express'
-import { like, eq, and, asc, desc, sql, SQL } from 'drizzle-orm'
+import { eq, and, asc, desc, sql, SQL } from 'drizzle-orm'
 import { getDb } from '../data/db'
 import { quotes } from '../data/schema'
 import { normalizeText } from '../lib/text'
@@ -13,6 +13,10 @@ type SortKey = keyof typeof SORT_FIELDS
 
 const PAGE_SIZE_DEFAULT = 20
 const PAGE_SIZE_MAX = 100
+
+function escapeLikePattern(input: string): string {
+  return input.replace(/[\\%_]/g, '\\$&')
+}
 
 function countQuotes(db: ReturnType<typeof getDb>, conditions: SQL[]): number {
   const query = db.select({ count: sql<number>`count(*)` }).from(quotes).$dynamic()
@@ -46,7 +50,8 @@ router.get('/', (req: Request, res: Response) => {
   const conditions: SQL[] = []
 
   if (q) {
-    conditions.push(like(quotes.quoteNormalized, `%${normalizeText(q)}%`))
+    const pattern = `%${escapeLikePattern(normalizeText(q))}%`
+    conditions.push(sql`${quotes.quoteNormalized} LIKE ${pattern} ESCAPE '\\'`)
   }
   if (character) {
     conditions.push(eq(quotes.character, character))
@@ -59,7 +64,7 @@ router.get('/', (req: Request, res: Response) => {
   const total = countQuotes(db, conditions)
 
   const sortColumns = SORT_FIELDS[sortKey]
-  query.orderBy(...sortColumns.map((col) => direction(col)))
+  query.orderBy(...sortColumns.map((col) => direction(col)), asc(quotes.id))
 
   const offset = (page - 1) * pageSize
   query.limit(pageSize).offset(offset)
