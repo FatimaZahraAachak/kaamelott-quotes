@@ -1,12 +1,20 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
-import { render, screen, waitFor } from '@testing-library/react'
+import { act, render, screen, waitFor } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import type { ReactNode } from 'react'
+import type { ReactNode, RefObject } from 'react'
 import { QuoteList } from './QuoteList'
 import * as api from '../api/quotes'
 
+let lastIntersect: (() => void) | null = null
+
 vi.mock('../hooks/useIntersectionObserver', () => ({
-  useIntersectionObserver: () => {},
+  useIntersectionObserver: (
+    _ref: RefObject<Element>,
+    opts: { enabled: boolean; onIntersect: () => void },
+  ) => {
+    lastIntersect = opts.enabled ? opts.onIntersect : null
+  },
 }))
 
 function wrap(ui: ReactNode) {
@@ -25,7 +33,10 @@ const baseProps = {
   order: 'asc' as const,
 }
 
-beforeEach(() => vi.restoreAllMocks())
+beforeEach(() => {
+  lastIntersect = null
+  vi.restoreAllMocks()
+})
 
 describe('QuoteList', () => {
   it('renders the loading message during initial fetch', () => {
@@ -36,10 +47,17 @@ describe('QuoteList', () => {
     expect(screen.getByText('Chargement...')).toBeInTheDocument()
   })
 
-  it('renders the error message when fetchQuotes fails', async () => {
-    vi.spyOn(api, 'fetchQuotes').mockRejectedValue(new Error('boom'))
+  it('renders the error message and retry button when fetchQuotes fails', async () => {
+    vi.spyOn(api, 'fetchQuotes').mockRejectedValue(
+      new Error('Le serveur est injoignable.'),
+    )
     wrap(<QuoteList {...baseProps} />)
-    expect(await screen.findByText(/Erreur : boom/)).toBeInTheDocument()
+    expect(
+      await screen.findByText('Le serveur est injoignable.'),
+    ).toBeInTheDocument()
+    expect(
+      screen.getByRole('button', { name: /Réessayer/i }),
+    ).toBeInTheDocument()
   })
 
   it('renders the empty state when no results and no search', async () => {
@@ -130,5 +148,78 @@ describe('QuoteList', () => {
     await waitFor(() =>
       expect(screen.getByText('1 résultat')).toBeInTheDocument(),
     )
+  })
+
+  it('recovers from an initial fetch error after clicking Réessayer', async () => {
+    const spy = vi
+      .spyOn(api, 'fetchQuotes')
+      .mockRejectedValueOnce(new Error('Le serveur est injoignable.'))
+    wrap(<QuoteList {...baseProps} />)
+
+    const retryButton = await screen.findByRole('button', { name: /Réessayer/i })
+
+    spy.mockResolvedValueOnce({
+      data: [],
+      page: 1,
+      pageSize: 20,
+      total: 0,
+      totalPages: 0,
+    })
+    await userEvent.click(retryButton)
+    expect(await screen.findByText('Aucune citation.')).toBeInTheDocument()
+  })
+
+  it('shows a retry button when fetching the next page fails', async () => {
+    const firstPageQuote = {
+      id: 1,
+      book: 'L',
+      episodeNumber: 1,
+      episodeTitle: 'E',
+      actor: 'A',
+      character: 'Arthur',
+      author: 'A',
+      quote: 'page-1-quote',
+      quoteNormalized: '',
+    }
+    const spy = vi
+      .spyOn(api, 'fetchQuotes')
+      .mockResolvedValueOnce({
+        data: [firstPageQuote],
+        page: 1,
+        pageSize: 1,
+        total: 2,
+        totalPages: 2,
+      })
+      .mockRejectedValueOnce(new Error('Erreur serveur. Réessaie plus tard.'))
+
+    wrap(<QuoteList {...baseProps} />)
+    await screen.findByText(/page-1-quote/)
+
+    expect(lastIntersect).not.toBeNull()
+    await act(async () => {
+      lastIntersect?.()
+    })
+
+    expect(
+      await screen.findByText('Erreur lors du chargement.'),
+    ).toBeInTheDocument()
+    const retryButton = screen.getByRole('button', { name: /Réessayer/i })
+    expect(retryButton).toBeInTheDocument()
+
+    spy.mockResolvedValueOnce({
+      data: [
+        {
+          ...firstPageQuote,
+          id: 2,
+          quote: 'page-2-quote',
+        },
+      ],
+      page: 2,
+      pageSize: 1,
+      total: 2,
+      totalPages: 2,
+    })
+    await userEvent.click(retryButton)
+    expect(await screen.findByText(/page-2-quote/)).toBeInTheDocument()
   })
 })

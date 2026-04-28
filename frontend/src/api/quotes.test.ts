@@ -67,7 +67,7 @@ describe('fetchQuotes', () => {
     expect(url.searchParams.get('order')).toBe('desc')
   })
 
-  it('throws an HTTP error when the response is not ok', async () => {
+  it('throws a server error message when the response is not ok', async () => {
     vi.spyOn(global, 'fetch').mockResolvedValue({
       ok: false,
       status: 500,
@@ -80,7 +80,7 @@ describe('fetchQuotes', () => {
         order: 'asc',
         page: 1,
       }),
-    ).rejects.toThrow('HTTP 500')
+    ).rejects.toThrow('Erreur serveur. Réessaie plus tard.')
   })
 
   it('returns the parsed JSON on success', async () => {

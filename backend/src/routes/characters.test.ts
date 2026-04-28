@@ -1,5 +1,4 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest'
-import express from 'express'
 import request from 'supertest'
 import { createTestDb, seedQuotes, TestDb } from '../test/helpers'
 
@@ -10,11 +9,8 @@ vi.mock('../data/db', () => ({
 }))
 
 async function buildApp() {
-  const { default: router } = await import('./characters')
-  const app = express()
-  app.use(express.json())
-  app.use('/characters', router)
-  return app
+  const { createApp } = await import('../index')
+  return createApp()
 }
 
 beforeEach(() => {

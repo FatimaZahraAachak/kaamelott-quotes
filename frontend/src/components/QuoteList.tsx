@@ -14,11 +14,13 @@ export function QuoteList({ search, character, sort, order }: Props) {
   const {
     data,
     isLoading,
-    isError,
+    isLoadingError,
     error,
+    refetch,
     fetchNextPage,
     hasNextPage,
     isFetchingNextPage,
+    isFetchNextPageError,
   } = useInfiniteQuery({
     queryKey: ['quotes', { search, character, sort, order }],
     queryFn: async ({ pageParam }) => {
@@ -34,9 +36,12 @@ export function QuoteList({ search, character, sort, order }: Props) {
   const handleIntersect = useCallback(() => {
     if (hasNextPage && !isFetchingNextPage) fetchNextPage()
   }, [hasNextPage, isFetchingNextPage, fetchNextPage])
+  const handleRetryNextPage = useCallback(() => {
+    fetchNextPage()
+  }, [fetchNextPage])
 
   useIntersectionObserver(sentinelRef, {
-    enabled: !!hasNextPage,
+    enabled: !!hasNextPage && !isFetchNextPageError,
     onIntersect: handleIntersect,
   })
 
@@ -44,8 +49,18 @@ export function QuoteList({ search, character, sort, order }: Props) {
     return <p className="text-slate-500">Chargement...</p>
   }
 
-  if (isError) {
-    return <p className="text-red-600">Erreur : {error.message}</p>
+  if (isLoadingError) {
+    return (
+      <div className="text-center">
+        <p className="text-red-600 mb-2">{error?.message}</p>
+        <button
+          onClick={() => refetch()}
+          className="px-3 py-1 rounded bg-slate-200 hover:bg-slate-300"
+        >
+          Réessayer
+        </button>
+      </div>
+    )
   }
 
   const quotes = data?.pages.flatMap((p) => p.data) ?? []
@@ -84,6 +99,17 @@ export function QuoteList({ search, character, sort, order }: Props) {
 
       {isFetchingNextPage && (
         <p className="text-center text-slate-500 mt-2">Chargement...</p>
+      )}
+      {isFetchNextPageError && (
+        <div className="text-center mt-2">
+          <p className="text-red-600 text-sm">Erreur lors du chargement.</p>
+          <button
+            onClick={handleRetryNextPage}
+            className="mt-1 px-3 py-1 rounded bg-slate-200 hover:bg-slate-300"
+          >
+            Réessayer
+          </button>
+        </div>
       )}
       {!hasNextPage && quotes.length > 0 && (
         <p className="text-center text-slate-400 text-sm mt-2">

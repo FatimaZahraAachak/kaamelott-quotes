@@ -27,9 +27,14 @@ export async function fetchQuotes(
     url.set('order', params.order)
   }
 
-  const res = await fetch(`${import.meta.env.VITE_API_URL}/quotes?${url.toString()}`)
+  let res: Response
+  try {
+    res = await fetch(`${import.meta.env.VITE_API_URL}/quotes?${url.toString()}`)
+  } catch {
+    throw new Error('Le serveur est injoignable.')
+  }
   if (!res.ok) {
-    throw new Error(`HTTP ${res.status}`)
+    throw new Error('Erreur serveur. Réessaie plus tard.')
   }
   return res.json()
 }

@@ -1,5 +1,4 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest'
-import express from 'express'
 import request from 'supertest'
 import { createTestDb, seedQuotes, TestDb } from '../test/helpers'
 
@@ -10,11 +9,8 @@ vi.mock('../data/db', () => ({
 }))
 
 async function buildApp() {
-  const { default: router } = await import('./quotes')
-  const app = express()
-  app.use(express.json())
-  app.use('/quotes', router)
-  return app
+  const { createApp } = await import('../index')
+  return createApp()
 }
 
 const sample = [
@@ -152,5 +148,25 @@ describe('GET /quotes', () => {
     const app = await buildApp()
     const res = await request(app).get('/quotes?page=0')
     expect(res.body.page).toBe(1)
+  })
+})
+
+describe('error handling', () => {
+  it('returns 500 JSON when the database throws', async () => {
+    const errorSpy = vi.spyOn(console, 'error').mockImplementation(() => {})
+    testDb = {
+      select: () => {
+        throw new Error('boom')
+      },
+    } as unknown as TestDb
+
+    const app = await buildApp()
+    const res = await request(app).get('/quotes')
+
+    expect(res.status).toBe(500)
+    expect(res.body).toEqual({ error: 'Internal server error' })
+    expect(res.headers['content-type']).toMatch(/json/)
+
+    errorSpy.mockRestore()
   })
 })
