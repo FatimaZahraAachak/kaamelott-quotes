@@ -5,11 +5,15 @@ type FetchQuotesParams = {
   character: string
   sort: string
   order: 'asc' | 'desc'
+  page: number
 }
 export async function fetchQuotes(
   params:  FetchQuotesParams
 ): Promise<QuotesResponse> {
-  const url = new URLSearchParams({ pageSize: '20' })
+  const url = new URLSearchParams({
+    pageSize: '20',
+    page: String(params.page),
+  })
   if (params.search) {
     url.set('q', params.search)
   }
