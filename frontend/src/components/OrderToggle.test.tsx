@@ -4,14 +4,18 @@ import userEvent from '@testing-library/user-event'
 import { OrderToggle } from './OrderToggle'
 
 describe('OrderToggle', () => {
-  it('renders ↑ when value=asc', () => {
+  it('shows ascending label when value=asc', () => {
     render(<OrderToggle value="asc" onChange={() => {}} />)
-    expect(screen.getByRole('button')).toHaveTextContent('↑')
+    const button = screen.getByRole('button')
+    expect(button).toHaveTextContent('Croissant')
+    expect(button).toHaveAccessibleName(/Croissant/)
   })
 
-  it('renders ↓ when value=desc', () => {
+  it('shows descending label when value=desc', () => {
     render(<OrderToggle value="desc" onChange={() => {}} />)
-    expect(screen.getByRole('button')).toHaveTextContent('↓')
+    const button = screen.getByRole('button')
+    expect(button).toHaveTextContent('Décroissant')
+    expect(button).toHaveAccessibleName(/Décroissant/)
   })
 
   it("calls onChange with 'desc' when value=asc and clicked", async () => {

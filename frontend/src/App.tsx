@@ -4,6 +4,7 @@ import { SearchBar } from './components/SearchBar'
 import { CharacterSelect } from './components/CharacterSelect'
 import { SortSelect } from './components/SortSelect'
 import { OrderToggle } from './components/OrderToggle'
+import { Toolbar } from './components/Toolbar'
 import { useDebouncedValue } from './hooks/useDebouncedValue'
 
 export default function App() {
@@ -19,18 +20,14 @@ export default function App() {
         <h1 className="text-3xl font-bold text-slate-800 mb-6">
           Citations Kaamelott
         </h1>
-        <div className="mb-3">
+        <Toolbar>
           <SearchBar value={search} onChange={setSearch} />
-        </div>
-        <div className="mb-6">
           <CharacterSelect value={character} onChange={setCharacter} />
-        </div>
-        <div className="mb-6 flex gap-2">
-          <div className="flex-1">
+          <div className="flex flex-wrap items-center justify-between gap-2">
             <SortSelect value={sort} onChange={setSort} />
+            <OrderToggle value={order} onChange={setOrder} />
           </div>
-          <OrderToggle value={order} onChange={setOrder} />
-        </div>
+        </Toolbar>
         <QuoteList
           search={debouncedSearch}
           character={character}

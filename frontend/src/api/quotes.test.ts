@@ -7,7 +7,7 @@ beforeEach(() => {
 })
 
 function mockFetchOk(body: unknown) {
-  return vi.spyOn(global, 'fetch').mockResolvedValue({
+  return vi.spyOn(globalThis, 'fetch').mockResolvedValue({
     ok: true,
     json: async () => body,
   } as Response)
@@ -68,7 +68,7 @@ describe('fetchQuotes', () => {
   })
 
   it('throws a server error message when the response is not ok', async () => {
-    vi.spyOn(global, 'fetch').mockResolvedValue({
+    vi.spyOn(globalThis, 'fetch').mockResolvedValue({
       ok: false,
       status: 500,
     } as Response)
