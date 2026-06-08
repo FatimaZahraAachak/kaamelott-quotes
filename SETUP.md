@@ -272,7 +272,7 @@ npm run preview            # serves the build locally on a Vite preview port
 | `EADDRINUSE: address already in use :::3000` | Something else is using port 3000. Stop that process, or change the backend port in [backend/src/index.ts](backend/src/index.ts) (it is currently hardcoded). |
 | `EADDRINUSE` on port 5173 | Run the frontend on another port: `npm run dev -- --port 5174`. |
 | `npm install` fails on `better-sqlite3` (Windows) | Install Visual Studio Build Tools with the "Desktop development with C++" workload, then retry. |
-| Frontend shows "Failed to fetch" / network errors | Backend isn't running, or `VITE_API_URL` in `frontend/.env` doesn't match the backend URL. CORS is already open on the backend, so it is rarely the cause. |
+| Frontend shows "Failed to fetch" / network errors | Backend isn't running, or `VITE_API_URL` in `frontend/.env` doesn't match the backend URL. The backend allows `localhost:5173` by default; if you changed the frontend port, set `ALLOWED_ORIGINS=http://localhost:<port>` in the backend environment. |
 | Frontend loads but shows zero quotes | You forgot `npm run seed` in `backend/`. Run it and refresh the page. |
 | You want to start over from a clean DB | Stop the backend, delete `backend/data.db`, then run `npm run db:migrate && npm run seed`. |
 
