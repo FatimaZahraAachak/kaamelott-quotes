@@ -26,4 +26,24 @@ describe('CharacterSelect', () => {
     ).toBeInTheDocument()
     expect(screen.getByRole('combobox')).toBeDisabled()
   })
+
+  it('shows a loading state while fetching', () => {
+    vi.spyOn(api, 'fetchCharacters').mockReturnValue(new Promise(() => {}))
+    wrap(<CharacterSelect value="" onChange={() => {}} />)
+
+    expect(screen.getByRole('combobox')).toBeDisabled()
+    expect(screen.getByRole('option', { name: 'Chargement...' })).toBeInTheDocument()
+  })
+
+  it('renders the list of characters on success', async () => {
+    vi.spyOn(api, 'fetchCharacters').mockResolvedValue({
+      data: ['Arthur', 'Perceval', 'Karadoc'],
+    })
+    wrap(<CharacterSelect value="" onChange={() => {}} />)
+
+    expect(await screen.findByRole('option', { name: 'Arthur' })).toBeInTheDocument()
+    expect(screen.getByRole('option', { name: 'Perceval' })).toBeInTheDocument()
+    expect(screen.getByRole('option', { name: 'Karadoc' })).toBeInTheDocument()
+    expect(screen.getByRole('combobox')).not.toBeDisabled()
+  })
 })

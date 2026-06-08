@@ -7,9 +7,10 @@ import { getDb } from './data/db'
 export function createApp() {
   const app = express()
 
-  // CORS open to all origins: fine for local frontend dev (Vite on 5173);
-  // restrict in prod via { origin: [...] }.
-  app.use(cors())
+  const allowedOrigins = process.env.ALLOWED_ORIGINS
+    ? process.env.ALLOWED_ORIGINS.split(',')
+    : ['http://localhost:5173']
+  app.use(cors({ origin: allowedOrigins }))
   app.use(express.json())
 
   app.use('/quotes', quotesRouter)

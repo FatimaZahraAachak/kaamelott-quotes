@@ -86,12 +86,11 @@ describe('GET /quotes', () => {
     expect(eps).toEqual([1, 1, 2])
   })
 
-  it('falls back to sort=book when the sort key is invalid', async () => {
+  it('returns 400 when the sort key is invalid', async () => {
     const app = await buildApp()
     const res = await request(app).get('/quotes?sort=hackedField')
-    expect(res.status).toBe(200)
-    const books = res.body.data.map((q: { book: string }) => q.book)
-    expect(books).toEqual(['Livre I', 'Livre I', 'Livre II'])
+    expect(res.status).toBe(400)
+    expect(res.body.error).toBe('Paramètres invalides.')
   })
 
   it('filters by q (case-insensitive and accent-insensitive)', async () => {
@@ -132,22 +131,25 @@ describe('GET /quotes', () => {
     expect(res.body.data).toHaveLength(1)
   })
 
-  it('clamps pageSize to PAGE_SIZE_MAX (100)', async () => {
+  it('returns 400 when pageSize exceeds the maximum (100)', async () => {
     const app = await buildApp()
     const res = await request(app).get('/quotes?pageSize=999')
-    expect(res.body.pageSize).toBe(100)
+    expect(res.status).toBe(400)
+    expect(res.body.error).toBe('Paramètres invalides.')
   })
 
-  it('falls back to pageSize=20 when pageSize is invalid', async () => {
+  it('returns 400 when pageSize is not a number', async () => {
     const app = await buildApp()
     const res = await request(app).get('/quotes?pageSize=abc')
-    expect(res.body.pageSize).toBe(20)
+    expect(res.status).toBe(400)
+    expect(res.body.error).toBe('Paramètres invalides.')
   })
 
-  it('falls back to page=1 when page is invalid or < 1', async () => {
+  it('returns 400 when page is invalid or < 1', async () => {
     const app = await buildApp()
     const res = await request(app).get('/quotes?page=0')
-    expect(res.body.page).toBe(1)
+    expect(res.status).toBe(400)
+    expect(res.body.error).toBe('Paramètres invalides.')
   })
 })
 
